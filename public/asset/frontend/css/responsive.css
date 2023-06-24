@@ -1,0 +1,808 @@
+/***** Home page responsive css  *****/
+@media (max-width: 1399.98px) {
+    #banner-section {
+        padding: 50px 0px 50px 0px;
+    }
+
+    #banner-section .right-text li {
+        padding: 4px;
+        font-size: 15px;
+    }
+
+    #banner-section .call-text h3 {
+
+        font-size: 26px;
+    }
+
+    #banner-section .input-text {
+        padding: 15px;
+    }
+
+    #about-us .We-do {
+        padding-top: 1px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    #emergency button {
+        font-size: 15px;
+    }
+
+    .reputation-matters .owl-carousel .owl-item img {
+        max-width: 178px !important;
+        height: 218px;
+        width: 100%;
+    }
+
+    .reputation-matters .box-edit p {
+        font-size: 15px;
+        padding-top: 5px;
+
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .map-section .text h3 {
+        font-size: 25px;
+    }
+
+    .map-section .text .Hire {
+        padding-top: 8px;
+        font-size: 14px;
+
+    }
+
+    .map-section .li-set {
+        padding-left: 70px;
+        margin-top: 0px;
+    }
+
+    footer .I-agree {
+        font-size: 13px;
+    }
+
+    .work-cards .We-take {
+        padding-bottom: 22px;
+    }
+
+    #banner-section .input-text p {
+        font-size: 15px;
+    }
+
+    .commercial-cards .cards-style {
+        padding: 15px
+    }
+}
+
+
+@media (max-width: 1199.98px) {
+    .nav-link {
+        margin: 0px 3px;
+        font-size: 14px;
+    }
+
+    #banner-section .left-side-style h2 {
+        font-size: 40px;
+    }
+
+    #banner-section .left-side-style .We {
+        font-size: 17px;
+        padding-top: 5px;
+        line-height: 28px;
+    }
+
+    #banner-section .left-side-style h3 {
+        padding-top: 10px;
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+
+    #banner-section .right-text li {
+        padding: 3px;
+        font-size: 12px;
+    }
+
+    #banner-section .left-side-style .GET {
+        font-size: 13px;
+        padding-top: 21PX;
+        LINE-HEIGHT: 27PX;
+    }
+
+    #banner-section .input-text p {
+        font-size: 13px;
+    }
+
+    #banner-section .call-text h3 {
+        font-size: 20px;
+    }
+
+    #about-us .text h4 {
+        font-size: 25px;
+        padding-bottom: 9px;
+    }
+
+    #about-us .text li {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .s-cards .text {
+        padding: 10px 0px 0px 10px;
+    }
+
+    .s-cards .text h4 {
+        font-size: 18px;
+    }
+
+    .s-cards .text p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 1px;
+    }
+
+    .s-cards .text button {
+        margin-top: 2px;
+
+    }
+
+    #emergency button {
+        padding: 12px 40px;
+    }
+
+    .map-section .text h3 {
+        font-size: 20px;
+    }
+
+    .map-section .li-set {
+        padding-left: 26px;
+        margin-top: 0px;
+    }
+
+    .work-cards .We-take {
+        padding-bottom: 16px;
+        FONT-SIZE: 14PX;
+        LINE-HEIGHT: 23PX;
+    }
+
+    footer .set-border::before {
+        display: none;
+    }
+
+    footer .style {
+        gap: 19px;
+        padding: 19px 16px 3px 25px;
+    }
+
+    footer .style .box-one {
+        font-size: 14px;
+        padding-top: 2px;
+    }
+
+    footer .form-style {
+        padding: 5px;
+    }
+
+    footer .I-agree {
+        font-size: 11px;
+    }
+
+    .learn-about .We-install {
+        padding-top: 0px;
+        font-size: 16px;
+    }
+
+    .learn-about .Hire {
+        font-size: 24px;
+        padding-bottom: 4px;
+        /* text-align: center; */
+    }
+
+    .commercial-cards .cards-style {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    #banner-section .right-text li {
+        font-size: 16px;
+    }
+
+    .right-form {
+        margin-top: 16px;
+    }
+
+    #banner-section .input-text p {
+        font-size: 17px;
+    }
+
+    #about-us .We-do {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #about-us .text h4 {
+        font-size: 20px;
+    }
+
+    #about-us .text li {
+        padding: 4px;
+        font-size: 13px;
+    }
+
+    #about-us .text {
+        margin-top: 25px;
+    }
+
+    #about-us .img {
+        margin-top: 29px;
+    }
+
+    .s-cards .card-syle {
+        padding: 7px;
+        box-shadow: 0px 13px 72px 15px rgba(196, 197, 198, 0.12);
+    }
+
+    .set-padding-sm {
+        padding: 7px;
+    }
+
+    .s-cards .text h4 {
+        font-size: 14px;
+    }
+
+    .s-cards .text p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    #emergency h4 {
+        font-size: 19px;
+    }
+
+    #emergency h3 {
+        font-size: 31px;
+    }
+
+    #emergency {
+        padding: 17px 0px 17px 0px;
+    }
+
+    #emergency button {
+        padding: 12px 24px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 55px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    #about-us .text li {
+        padding: 4px;
+        font-size: 12px;
+    }
+
+    .carousel-caption button {
+        margin-top: 1px;
+    }
+
+    .reputation-matters .We-are {
+
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .reputation-matters .box-edit {
+        display: block;
+    }
+
+    .reputation-matters .owl-carousel .owl-item img {
+        width: 100%;
+    }
+
+    .reputation-matters .box-edit img {
+        border-radius: 10px;
+        width: 100% !important;
+    }
+
+    .reputation-matters .box-edit .text {
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+    .reputation-matters .owl-carousel .owl-item img {
+        width: 100%;
+        margin: auto;
+        margin-top: 21px;
+    }
+
+    .map-section .text h3 {
+        font-size: 16px;
+    }
+
+    .map-section .text {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 30px;
+    }
+
+    .map-section .text h3 {
+        font-size: 20px;
+    }
+
+    .map-section .text .Hire {
+        padding-top: 3px;
+        font-size: 15px;
+    }
+
+    .map-section .li-set {
+        padding-left: 1px;
+        margin-top: 0px;
+    }
+
+    .work-cards .We-take {
+        padding-bottom: 16px;
+        FONT-SIZE: 13PX;
+        LINE-HEIGHT: 23PX;
+    }
+
+    footer .style {
+        gap: 15px;
+        padding: 19px 16px 3px 25px;
+    }
+
+    footer .style {
+        gap: 10px;
+        padding: 11px;
+    }
+
+    footer .style .box-one {
+        font-size: 12px;
+    }
+
+    footer .style i {
+        font-size: 28px;
+    }
+
+    footer .style span {
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 0px;
+    }
+
+    footer .set-the-padding {
+        padding-left: 15px;
+    }
+
+    .navbar-light .navbar-toggler {
+        background-color: #F6821E;
+    }
+
+    .input-style {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .learn-about .learn-more {
+        font-size: 25px;
+        padding-bottom: 3px;
+    }
+
+    .learn-about .text {
+        margin-top: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .commercial-cards .cards-style {
+        padding: 22px;
+        margin-top: 22px;
+    }
+
+    .s-cards .provide {
+        font-size: 21px;
+        padding-bottom: 10px;
+    }
+
+    .s-cards .text button {
+        padding: 7px 18px;
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-width: 767.98px) {
+    #banner-section .left-side-style .img-box img {
+        width: 100%;
+    }
+
+    .right-text {
+        margin-top: 26px;
+    }
+
+    #banner-section .right-text li {
+        font-size: 17px;
+    }
+
+    #banner-section .left-side-style .GET {
+        font-size: 14px;
+        padding-top: 21PX;
+        LINE-HEIGHT: 26PX;
+    }
+
+    #about-us .We-do {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    #about-us {
+        padding: 30px 0px 30px 0px;
+    }
+
+    #about-us .text {
+        margin-top: 6px;
+    }
+
+    #about-us .text h4 {
+        font-size: 24px;
+    }
+
+    #about-us .text li {
+        padding: 4px;
+        font-size: 18px;
+    }
+
+    .s-cards .card-syle {
+        padding: 12px 14px;
+    }
+
+    .s-cards .text h4 {
+        font-size: 15px;
+    }
+
+    .s-cards .text p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    #emergency h4 {
+        font-size: 15px;
+    }
+
+    #emergency button {
+        padding: 12px 51px;
+        margin-top: 9px;
+    }
+
+    .banner-slider img {
+        min-height: 317px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .carousel-caption p {
+        font-size: 19px;
+        line-height: 17px;
+    }
+
+    .reputation-matters .We-are {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .reputation-matters .box-edit {
+        margin-top: 12px;
+        border-radius: 10px;
+    }
+
+    .reputation-matters .box-edit .text {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .reputation-matters .box-edit .text {
+        padding-top: 20px;
+        padding-left: 12px;
+
+    }
+
+    .reputation-matters .box-edit p {
+        font-size: 14px;
+    }
+
+    .work-cards .We-take {
+        display: none;
+    }
+
+    .work-cards {
+        padding: 30px 0px 20px 0px;
+    }
+
+    .heading-style {
+        padding-bottom: 1px;
+        font-size: 33px;
+
+    }
+
+    footer .bg-color {
+        display: none;
+    }
+
+    footer .menu {
+        margin-top: 29px;
+    }
+
+    .nav-link {
+        margin: 0px;
+        font-size: 16px;
+        padding: 7px;
+    }
+
+    .learn-about .learn-more {
+        font-size: 18px;
+        padding-bottom: 0px;
+        line-height: 22px;
+    }
+
+    .learn-about .Get-a {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .learn-about .HOUR {
+        line-height: 6px;
+        font-size: 15px;
+    }
+
+    .learn-about .img {
+        margin-top: 20px;
+    }
+
+    .commercial-cards .cards-style {
+        padding: 10px;
+        margin-top: 18px;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    .heading-style {
+        padding-bottom: 0px;
+    }
+
+    #banner-section .left-side-style h2 {
+        font-size: 25px;
+    }
+
+    #banner-section .left-side-style .We {
+        font-size: 15px;
+        padding-top: 4px;
+        line-height: 27px;
+
+    }
+
+    #banner-section .left-side-style h3 {
+        padding-top: 0px;
+        font-size: 17px;
+        padding-bottom: 12px;
+    }
+
+    #banner-section .right-text li {
+        font-size: 14px;
+    }
+
+    #banner-section .left-side-style .GET {
+        font-size: 9px;
+        padding-top: 12PX;
+        LINE-HEIGHT: 20PX;
+        FONT-WEIGHT: 400;
+    }
+
+    #banner-section .call-text {
+        background-color: var(--section--bg-2);
+        padding: 15px;
+        text-align: center;
+    }
+
+    #banner-section .call-text h3 {
+
+        padding-bottom: 5px;
+    }
+
+    #banner-section .input-text {
+        padding: 10px;
+    }
+
+    #banner-section .input-text p {
+        font-size: 13px;
+    }
+
+    .heading-style {
+        font-size: 24px;
+
+    }
+
+    #about-us .We-do {
+        display: none;
+    }
+
+    #about-us .text h4 {
+        font-size: 25px;
+        padding-bottom: 1px;
+    }
+
+    #about-us .text li {
+        padding: 3px;
+        font-size: 15px;
+    }
+
+    #about-us .text h4 {
+        font-size: 17px;
+        padding-bottom: 1px;
+    }
+
+    #about-us .img {
+        margin-top: 15px;
+    }
+
+    .s-cards {
+        padding: 20px 0px 25px 0px;
+    }
+
+    .heading-style {
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+
+    .s-cards .text h4 {
+        font-size: 18px;
+        padding-top: 3px;
+    }
+
+    .s-cards .text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .set-padding-sm {
+        padding: 10px 0px 15px;
+    }
+
+    .s-cards .card-syle {
+        padding: 19px 14px;
+        border-radius: 18px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 55px;
+        display: none;
+    }
+
+    .banner-slider img {
+        min-height: 154px;
+    }
+
+    .reputation-matters {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .reputation-matters .We-are {
+        font-size: 16px;
+        line-height: 21px;
+        display: none;
+    }
+
+    .map-section {
+        padding: 30px 0px 30px 0px;
+        background-color: #F8F8F8;
+    }
+
+    .map-section .text h3 {
+        font-size: 18px;
+    }
+
+    .map-section .text .Hire {
+        padding-top: 3px;
+        font-size: 18px;
+        display: none;
+    }
+
+    .heading-style {
+        font-size: 22px;
+        padding-bottom: 12px;
+    }
+
+    footer .I-agree {
+        font-size: 13px !important;
+    }
+
+    footer .menu a {
+        font-size: 15px;
+    }
+
+    footer {
+        padding-bottom: 20px;
+    }
+
+    footer .menu h2 {
+        font-size: 28px;
+        padding-bottom: 0px;
+    }
+
+
+
+    footer .menu {
+        margin-top: 19px;
+    }
+
+    footer .menu li {
+        margin: 14px 0px;
+    }
+
+    iframe {
+        height: 250px;
+    }
+
+    .map-section .map-style {
+        padding: 12px;
+    }
+
+    .learn-about {
+        padding: 22px 0px 22px 0px;
+    }
+
+    .learn-about .learn-more {
+        font-size: 16px;
+    }
+
+    .learn-about .Get-a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .learn-about .HOUR {
+        line-height: 15px;
+        font-size: 11px;
+    }
+
+    .learn-about .HOUR {
+        line-height: 15px;
+        font-size: 11px;
+        margin: 0px;
+    }
+
+    .learn-about .Hire {
+        font-size: 17px;
+        padding-bottom: 0px;
+        line-height: 25px;
+    }
+
+    .learn-about .We-install {
+        padding-top: 0px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .commercial-cards {
+        padding: 17px 0px 40px 0px;
+        background-color: #F8F8F8;
+    }
+
+    .s-cards .provide {
+        padding-bottom: 0px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+}
+
+/***** End Home page responsive css  *****/
