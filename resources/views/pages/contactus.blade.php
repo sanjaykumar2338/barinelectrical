@@ -5,135 +5,113 @@
        <div class="alert alert-info">{{ Session::get('message') }}</div>
     @endif
     
-    <section class="contact-banner d-flex align-items-center">
+     <!-- ========== End header ========== -->
+    <!-- ========== Start c-section ========== -->
+
+    <section id="c-section">
         <div class="container">
-            <div class="col-lg-12 col-md-12 col-sm-12 z-3">
-                <div class="text">
-                    <h4><u>Contact Web Designers and Digital Marketers Here</u></h4>
-                    <p>When you are interested in taking your web design to the next level with a custom design or an effective digital marketing service, contact the team at eJobs4Pros. We offer affordable rates, quality design and effective optimization services.
-                    Start by reaching out to our web support and marketing professionals for a free quote!
-                    Our team is easy to reach. We would love to meet up via a call, online meeting or through the easy-to-use client dashboard. Work closely with our experts to instantly collaborate and coordinate plans and strategies.
-                    We are located in the Northeastern United States, but we work with clients from every state.
-                    Contact us to evaluate your online presence and market.</p>
-                </div>
+            <div class="text">
+                <h3>24 hours Electrical Contractors Los Angeles</h3>
             </div>
         </div>
     </section>
-    <!-- section close  -->
-    <section class="c-section-2">
-        <div class="container">
-            <div class="row g-3">
-                <div class="col-lg-6">
-                  <h1 class="Contact"> Contact Details</h1>
-                    <div class="style-box">
+    <!-- ========== End c-section ========== -->
 
-                        <div class="row g-3">
-                            <div class="col-lg-6 col-md-6 col-sm-12 text-center">
-                                <div class="styleling">
-                                  <div class="img">
-                                    <img src="{{url('/asset/images/location.png')}}" alt="">
-                                  </div>
-                                  <div class="text">
-                                    <h5>Address</h5>
-                                    <p>Wall Street West Lyndhurst, Lyndhurst, NJ, United States, 07071</p>
-                                  </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 text-center">
-                              <div class="styleling">
-                                <div class="img">
-                                  <img src="{{url('/asset/images/call.png')}}" alt="">
-                                </div>
-                                <div class="text">
-                                  <h5> Phone Nunber</h5>
-                                  <p><a href="tel:347-391-1811">347-391-1811</a></p><br/>
-                                </div>
-                              </div>
-                          </div>
-                          <div class="col-lg-6 col-md-6 col-sm-12 text-center">
-                            <div class="styleling">
-                              <div class="img">
-                                <img src="images/mail.png" alt="">
-                              </div>
-                              <div class="text">
-                                <h5> Email id</h5>
-                                <p><a href="mailto:Contact@Ejobs4pros.Com">Contact@Ejobs4pros.Com</a></p>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12  text-center">
-                          <div class="styleling">
-                            <div class="img">
-                              <img src="{{url('/asset/images/watch.png')}}" alt="">
+    <!-- ========== Start contact section ========== -->
+    <section id="contact-section">
+        <div class="container">
+            <h3 class="heading-style">Contact Us</h3>
+            <div class="row">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-12">
+                    <div class="style-box">
+                        <h3>reach us</h3>
+                        <p class="Our text-center">Our Contact Info and we' ll respond as soon as possible</p>
+                        <div class="call-box">
+                            <div class="icon">
+                                <img src="{{url('images/call.png')}}" alt="">
                             </div>
                             <div class="text">
-                              <h5> Opening Hours</h5>
-                              <p>9Am - 5PM</p>
+                                <h6>Phone No</h6>
+                                <a href="#">
+                                    <p> 8185856123</p>
+                                </a>
+
                             </div>
-                          </div>
-                      </div>
                         </div>
+                        <div class="call-box">
+                            <div class="icon">
+                                <img src="{{url('images/location.png')}}" alt="">
+                            </div>
+                            <div class="text">
+                                <h6>Location</h6>
+                                <a href="#">
+                                    <p> 29277 Sandpiper Drive,Lake Elsinore, Ca 92530 </p>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="call-box">
+                            <div class="icon">
+                                <img src="{{url('images/mail.png')}}" alt="">
+                            </div>
+                            <div class="text">
+                                <h6>Email Us</h6>
+                                <a href="#">
+                                    <p> support@barinelectrical.com</p>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <!-- icons  -->
+                        <div class="s-cions">
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-youtube"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="form-style">
+                        <p class="Have">Have a question?</p>
+                        <h4>get in touch</h4>
+                        <form action="">
+                            <input type="text" placeholder="First name" name="" id="">
+                            <input type="text" placeholder="last name" id="">
+                            <input type="email" placeholder="email" name="" id="">
+                            <input type="tel" placeholder="mobile no" name="" id="">
+                            <textarea name="" rows="4" placeholder="message"></textarea>
+                            <button class="send mt-5">send</button>
+                        </form>
 
                     </div>
+
                 </div>
-                <!-- col-close  -->
-                <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
-                  <div class="main-style">
-                    <h5 class="Send"> Send us a message</h5>
-                    <form class="mt-5" name="get_quote" method="post" action="{{url('contact-us-save')}}">
-                      @csrf
-                      <div class="row mt-2">
-                        <div class="col-lg-12">
-                          <input type="text" required name="name" placeholder="enter full name">
-                        </div>
-                        <div class="col-lg-6">
-                          <input type="email" required name="email" placeholder="Email">
-                        </div>
-                        <div class="col-lg-6">
-                          <input type="number" required name="phone_number" placeholder="contact number">
-                        </div>
-                        <div class="col-lg-12">
-                          <input type="url"placeholder="website url" name="website_url">
-                        </div>
-                      </div>
-                      <button class="s-b mt-3"> send</button>
-                    </form>
-                  </div>
-                </div>
+
             </div>
+
+        </div>
+
+    </section>
+    <!-- ========== End contact section ========== -->
+
+
+    <!-- ========== Start map location ========== -->
+    <section class="map-location">
+        <div class="container">
+            <div class="col-m-12 col-12 col-12">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.88280506054!2d-118.74138381401502!3d34.02003923646538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1687638239678!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+
         </div>
     </section>
-     <section class="get-section">
-      <div class="container">
-        <div class="row g-3">
-          <div class="col-lg-4">
-            <h4>Get a Quote for you website
-            </h4>
-            <p>Simply ask us about our effective digital strategies to take your website design, search engine optimization and social media marketing to the next level. Click to start a live chat with a professional who can answer questions about your online goals!</p>
-            <a href="https://www.facebook.com">Chat Now</a>
-          </div>
-
-          <div class="col-lg-4">
-            <h4>Reach us by phone.
-            </h4>
-            <p>Click to call for advice on how to improve your website speed and increase search engine rank. Call for a fast quote and a detailed proposal. Call the web designers and digital marketers now!</p><br><br>
-            <a href="tel:0013473911811">Call Now</a>
-          </div>
-
-          <div class="col-lg-4">
-            <h4>We’re social.
-            </h4>
-            <p>Find us on social media where you can message your website problems directly to our team. Follow us on social media to find general advice that can help you improve your website and social presence. Connect and message us now!</p><br>
-            <a href="tel:0013473911811">Call Now</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- section close  -->
-    <section class="c-f-1">
-      @include('includes.map')q
-    </section>
-    <!-- section close  -->
-    <!-- section close  -->
+    <!-- ========== End map location ========== -->
 @stop

@@ -37,6 +37,10 @@ class GetQuoteController extends Controller
         return view('pages.portfolio');
     }
 
+    public function all_services(){
+        return view('pages.all_services');
+    }
+
     public function  industries(){
         return view('pages.industries');
     }

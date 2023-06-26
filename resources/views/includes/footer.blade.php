@@ -64,11 +64,11 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12   set-the-padding ">
                     <div class="menu">
                         <h2>menu</h2>
-                        <li><a href="#"> home</a></li>
-                        <li><a href="#"> about us</a></li>
-                        <li><a href="#">electrical services </a></li>
-                        <li><a href="#"> areas servies</a></li>
-                        <li><a href="#"> contact us</a></li>
+                        <li><a href="{{url('/')}}"> home</a></li>
+                        <li><a href="{{url('/aboutus')}}"> about us</a></li>
+                        <li><a href="{{url('/all-services')}}">electrical services </a></li>
+                        <li><a href="{{url('/all-services')}}"> areas servies</a></li>
+                        <li><a href="{{url('/contact-us')}}"> contact us</a></li>
                     </div>
 
                 </div>

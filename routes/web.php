@@ -53,6 +53,8 @@ Route::get('/seo-resources/website-audit', [GetQuoteController::class, 'website_
 Route::get('/seo-resources/competitor-analysis', [GetQuoteController::class, 'competitor_analysis']);
 Route::get('/seo-resources/website-speed', [GetQuoteController::class, 'website_speed']);
 Route::get('/contact-us', [GetQuoteController::class, 'contact_us']);
+Route::get('/all-services', [GetQuoteController::class, 'all_services']);
+
 Route::post('/contact-us-save', [GetQuoteController::class, 'contact_us_save']);
 Route::get('/coupon', [GetQuoteController::class, 'coupon']);
 Route::get('/terms-of-use', [GetQuoteController::class, 'terms_of_use']);

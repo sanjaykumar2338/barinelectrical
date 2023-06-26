@@ -1,80 +1,130 @@
 
-@extends('layouts.main')
+@extends('layouts.homepage')
 @section('content')
     
-    <title>Digital Service Company for Website redesign and Marketing</title>
-    <meta name="description" content="Digital service company offering affordable website redesign services, creative online marketing strategies and effective search engine optimization techniques.">
-    <!-- header close  -->
-    <section class=" bg d-flex align-items-center">
+    <!-- ========== End header ========== -->
+    <!-- ========== Start about-us-section ========== -->
+    <section id="about-us-section">
         <div class="container">
-            <h3 class="Website"> Website Design and Marketing Company</h3>
-            <p> Digital Marketing Services for Top Business Ranking, Deal with a Skilled Marketing Consultant and Your Job is Done!We design, custom build and market small business websites at affordable rates. Get a free quote from the top website design, development and digital marketing agency here.Talk to a marketing campaign strategist now for the best lead generation campaign.Explore our professional digital solutions for designers, small businesses and corporations; deal with one digital marketing consultant and your Job is done, Hire Ejobs4Pros.</p>
+            <div class="text">
+                <h3>24 hours Electrical Contractors Los Angeles
+                </h3>
             </div>
         </div>
     </section>
-    <!-- bg--img-close  -->
+    <!-- ========== End about-us-section ========== -->
 
-    <div class="about-section-1">
+    <!-- ========== Start about-cards ========== -->
+    <section id="a-cards">
         <div class="container">
-            <div class="row g-4 justify-content-center align-items-center">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card-design">
-                        <div class="img">
-                            <img src="{{url('/asset/images//a.1.avif')}}" alt="">
-                        </div>
-                        <div class="text mt-lg-2">
-                            <h3> Digital Marketing Agency</h3>
-                            <p>Expert digital marketing services available to every website owner, business manager and product designer; Hire a marketing agency that provides effective and creative digital advertising. Hire professional marketers with access to commercial marketing applications and systems for quality results and best ROI.</p>
-                        </div>
-                    </div>
-                </div>
-                    <!-- col-close  -->
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="card-design">
-                            <div class="img">
-                                <img src="{{url('/asset/images/a.2.avif')}}" alt="">
-                            </div>
-                            <div class="text mt-lg-2">
-                                <h3>Local Marketing Guru</h3>
-                                <p>Known to excel in developing local marketing tactics with a twist to maximize ROI; hire a local marketing guru to grow your social media and local customer base. Build a segmented email list to improve customer loyalty, redesign your brand to reflect efficiency and streamline your e-commerce process to improve sales.</p>
-                            </div>
-                        </div>
-                    </div>
-                        <!-- col-close  -->
-            </div>
-        </div>
-    </div>
-    <!-- about-section-1 close  -->
-    <div class="about-section-2">
-        <div class="container-fluid">
-            <div class="row ">
-                <div class="col-lg-6 col-md-12 col-sm-12 p-0">
+            <h3 class="heading-style">About Us.</h3>
+            <p class="text-center">We are a company of licensed electrical contractors. Our Los Angeles 24 hours
+                electricians work with
+                building contractors to install wiring for equipment and fixtures.</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="style-box">
                         <div class="img">
-                            <img src="{{url('/asset/images/bg-3.avif')}}" alt="">
+                            <img src="images/licensed.png" alt="">
                         </div>
                         <div class="text">
-                          <h4> Marketing Campaign Strategists </h4>
-                          <p> Knowledgeable of latest search engine algorithms and ranking strategies, Provider of quality campaign strategies that produce reactions and convert shoppers to customers. We are a value proposition strategist who designs ads that attract and funnel leads through your sales pipeline.</p>
-                          <h4 class="mt-3"> Digital Marketing Consultants</h4>
-                          <p> Our digital marketing consultants work with you to create and implement successful marketing strategies. We draft a detailed marketing plan, help determine your brand’s message and figure out key ways to reach your target audience so you get the results you seek. Our team specializes in many areas of the marketing process to ensure your business success. We bring creative thinking, an understanding of consumer behavior, and real results-driven analysis to achieve real marketing goals.Ejobs4Pros – Digital Marketing Consultants for Small Business</p>
+                            <h4>licensed electrical contractors</h4>
+                            <p>Why is getting licensed electrical contractors for electrical repairs important?
+
+                                A licensed electrical contractor handles a variety of residential electrical repairs and
+                                commercial electrical repairs. These include installing, erecting, and connecting
+                                electrical wires. Fixtures, home and office appliances, conduits, solar cells, and more
+                                depend on accurate connectivity to generate energy through electricity in the safest
+                                way. Our licensed 24 hour electrical contractors are experts on how to work with all
+                                energy sources in Los Angeles, becausewe are licensed by the</p>
+                            <a href="">
+                                Department of Consumer Affairs Contractors State License Board.
+                            </a>
                         </div>
                     </div>
+
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 p-0">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="style-box">
                         <div class="img">
-                            <img src="{{url('/asset/images/bg-2.jpg')}}" alt="">
+                            <img src="images/24 hour.png" alt="">
                         </div>
                         <div class="text">
-                          <h4> Lead Marketing Agency</h4>
-                          <p>Skilled agents in sales funnel, lead nurturing and automated engagement strategy design, Hire a lead marketing agency to drive traffic to your online shop and increase sales. Venture into the world of effective digital creativity and attract qualified leads with ejobs4pros.s</p>
+                            <h4>24 hour electricians</h4>
+                            <p>Who do I call when I have an electrical emergency?
+
+                                Our 24 hour electricians get the job you need done fast in Los Angeles! With friendly
+                                customer service, fair prices, and safe protocols, we’re there when you need repairs –
+                                day or night. Clearly, if there is a fire of any kind, you would call your local fire
+                                department and not your 24 hour electrician. However, there are times when burning
+                                wires, smoke of any kind, overheated panels or outlets, and flickering lights often
+                                indicate an emergency. If it’s after hours, and you can’t find a solution in your <a
+                                    href="">home
+                                    emergency kit,</a> we are here for you to keep you safe 24/7.</p>
                         </div>
                     </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="style-box">
+                        <div class="img">
+                            <img src="images/install wiring.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h4>linstall wiring</h4>
+                            <p>What kind of professional do I need to install wiring?
+
+                                A 24 hour electrical contractor will install wiring for light fixtures, appliances, and
+                                a variety of electrical circuits at residential or commercial locations. Whether it is
+                                installing a new circuit and knowing the way around a breaker panel, our 24 hour
+                                electrical repair services include everything you need to ensure you install wiring in
+                                your home or office safely, correctly, and quickly.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ========== End about-cards ========== -->
+
+    <!-- ========== Start Emergency! ========== -->
+    <section id="emergency">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12  d-flex justify-content-center align-items-center">
+                    <h3> <em>emergency </em></h3>
+                </div>
+                <div class="col-md-6 col-sm-6 col-12  d-flex justify-content-center align-items-center">
+                    <h4>24/7 emergency Electrical services</h4>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12  d-flex justify-content-center align-items-center">
+                    <button>call us now</button>
                 </div>
             </div>
+
         </div>
+    </section>
+    <!-- ========== End Emergency! ========== -->
+
+    <!-- ========== Start banner-section-two ========== -->
+    <section id="b-2">
+        <div class="container">
+            <div class="text-box z-3">
+                <h3>24 Hour Electrical Contractors in Los Angeles</h3>
+                <p>Southern California has its share of electrical issues, including <span
+                        style="color: var(--text-color);">power outages </span>to control wild
+                    fires. These situations lead to many small and larger electrical emergencies for people who depend
+                    on electricity for medical needs, food supplies, and safe temperatures. At Barin Electrical, we
+                    provide 24 hour electrical contractors – Los Angeles, day or night, 7 days a week.</p>
+            </div>
         </div>
+    </section>
+    <!-- ========== End banner-section-two ========== -->
 @stop
 
        

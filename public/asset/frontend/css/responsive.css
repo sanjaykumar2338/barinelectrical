@@ -1,5 +1,6 @@
-/***** Home page responsive css  *****/
 @media (max-width: 1399.98px) {
+
+    /***** home-page responsive css *****/
     #banner-section {
         padding: 50px 0px 50px 0px;
     }
@@ -74,10 +75,26 @@
     .commercial-cards .cards-style {
         padding: 15px
     }
+
+    /***** End home-page responsive css *****/
+
+
+
+    /***** about page responsive css *****/
+    #a-cards .style-box {
+        padding: 20px;
+    }
+
+    /***** End about page responsive css *****/
+
+
+
 }
 
 
 @media (max-width: 1199.98px) {
+    /***** home-page responsive css *****/
+
     .nav-link {
         margin: 0px 3px;
         font-size: 14px;
@@ -202,9 +219,31 @@
     .commercial-cards .cards-style {
         padding: 12px;
     }
+
+    /***** End home-page responsive css *****/
+
+
+    /***** about page responsive css *****/
+    #a-cards .style-box .text h4 {
+        font-size: 19px;
+    }
+
+    /***** End about page responsive css *****/
+
+
+
+
 }
 
 @media (max-width: 991.98px) {
+    #b-section-1 .text h3 {
+        padding-top: 12px;
+    }
+
+    #review .text-right .Recommended {
+        font-size: 19px;
+    }
+
     #banner-section .right-text li {
         font-size: 16px;
     }
@@ -414,6 +453,24 @@
         font-size: 14px;
     }
 
+    /***** about page responsive css *****/
+    #a-cards .style-box .text h4 {
+        font-size: 21px;
+    }
+
+    #b-2 .text-box h3 {
+        font-size: 30px;
+    }
+
+    #b-2 .text-box p {
+        font-size: 16px;
+    }
+
+    /***** End about page responsive css *****/
+
+
+
+
 
 }
 
@@ -571,6 +628,28 @@
         padding: 10px;
         margin-top: 18px;
     }
+
+    /***** contact page css *****/
+    #contact-section {
+        padding: 30px 0px 30px 0px;
+    }
+
+    #contact-section .style-box {
+        margin-top: 20px;
+    }
+
+    .map-location {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .map-location iframe {
+        min-height: auto;
+    }
+
+    /***** End contact page css *****/
+
+
+
 }
 
 
@@ -803,6 +882,209 @@
         line-height: 20px;
     }
 
+    /***** about page responsive css *****/
+    #about-us-section h3 {
+        font-size: 26px;
+    }
+
+    #a-cards {
+        padding: 18px 0px 35px 0px;
+        background-color: #F8F8F8;
+    }
+
+    .heading-style {
+        padding-bottom: 1px;
+    }
+
+    #a-cards p {
+        font-size: 14px;
+    }
+
+    #a-cards .style-box {
+        padding: 15px;
+    }
+
+    #a-cards .style-box .text h4 {
+        font-size: 19px;
+    }
+
+    #a-cards .style-box .text p {
+        font-size: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #a-cards .style-box .text a {
+        font-size: 16px;
+    }
+
+    #b-2 .text-box h3 {
+        font-size: 23px;
+    }
+
+    #b-2 .text-box p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    #about-us-section {
+        min-height: 200px;
+    }
+
+    /***** End about page responsive css *****/
+
+    /* content: page css  */
+    .heading-style {
+        font-size: 27px;
+        padding-bottom: 2px;
+    }
+
+    #contact-section .style-box p {
+        font-size: 15px;
+        word-break: break-all;
+    }
+
+    #contact-section .style-box {
+        padding: 24px;
+    }
+
+    #contact-section .style-box .call-box {
+        padding-bottom: 22px;
+    }
+
+    #contact-section .form-style {
+        padding: 24px;
+    }
+
+    #contact-section .form-style .Have {
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    #contact-section .form-style h4 {
+        text-align: center;
+    }
+
+    #contact-section .form-style form {
+        margin-top: 14px;
+    }
+
+    .map-location {
+        padding: 22px 0px 22px 0px;
+    }
+
+    #c-section {
+        min-height: 200px;
+        background-position: center;
+    }
+
+    #c-section .text h3 {
+        font-size: 23px;
+        padding-top: 47px;
+    }
+
+    .map-location iframe {
+        min-height: auto;
+        padding: 10px;
+    }
+
+    /* content: page css close */
+
+    #b-section-1 .top {
+
+        font-size: 23px;
+    }
+
+    #b-section-1 .Call {
+
+        font-size: 14px;
+
+    }
+
+    #b-section-1 .video {
+        margin-top: 20px;
+    }
+
+    #review .text-right .Recommended {
+        font-size: 17px;
+        padding-top: 9px;
+    }
+
+    #Construction-section {
+        padding: 30px 0px 30px 0px;
+    }
+
+    #Construction-section .left-text h3 {
+        font-size: 17px;
+    }
+
+    #Construction-section .left-text p {
+        font-size: 14px;
+    }
+
+    #Construction-section .left-text li {
+        font-size: 16px;
+    }
+
+    #reachan-section {
+        padding: 30px 0px 30px 0px;
+        background-color: #F8F8F8;
+    }
+
+    #reachan-section p {
+        font-size: 14px;
+    }
+
+    #reachan-section .text {
+        margin-top: 23px;
+        padding-left: 10px;
+    }
+
+    #reachan-section h3 {
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 27px;
+    }
+
+    #reachan-section li {
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .get-an {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .get-an .Get {
+
+        padding-bottom: 19px;
+        font-size: 16px;
+    }
+
+    .get-an h2 {
+        font-size: 24px;
+    }
+
+    .get-an li {
+        font-size: 15px;
+    }
+
+    .get-an p {
+        font-size: 14px;
+        color: var(--p-color);
+        line-height: 27px;
+    }
+
+    .b-section-two h3 {
+        font-size: 20px;
+    }
+    .b-section-two p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .b-section-two {
+        padding: 20px 0px 20px 0px;
+    }
 }
 
-/***** End Home page responsive css  *****/
+/*****  all page responsive css  *****/
