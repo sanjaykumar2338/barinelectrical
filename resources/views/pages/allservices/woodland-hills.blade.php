@@ -1,5 +1,6 @@
-@extends('layouts.getquote')
-  @section('content')
+ 
+@extends('layouts.homepage')
+@section('content')
 <!-- ========== End header ========== -->
 
     <!-- ========== Start section-1 ========== -->
