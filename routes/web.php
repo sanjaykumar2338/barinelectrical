@@ -84,6 +84,24 @@ Route::get('/web-design/e-catalog-inventory', [GetQuoteController::class, 'e_cat
 
 //main Controller
 Route::get('/aboutus', [MainController::class, 'aboutus']);
+Route::get('/commercial-electricians-riverside', [MainController::class, 'commercial_electricians_riverside']);
+Route::get('/electrical-services', [MainController::class, 'electrical_services']);
+Route::get('/commercial-electricians', [MainController::class, 'commercial_electricians']);
+Route::get('/electrical-code-compliance', [MainController::class, 'electrical_code_compliance']);
+Route::get('/electrical-subcontractors', [MainController::class, 'electrical_subcontractors']);
+Route::get('/residential-electricians', [MainController::class, 'residential_electricians']);
+Route::get('/agoura-hills', [MainController::class, 'agoura_hills']);
+Route::get('/service-areas', [MainController::class, 'service_areas']);
+Route::get('/calabasas-electricians', [MainController::class, 'calabasas_electricians']);
+Route::get('/encino', [MainController::class, 'encino']);
+Route::get('/los-angeles-electricians', [MainController::class, 'los_angeles_electricians']);
+Route::get('/sherman-oaks-electricians', [MainController::class, 'sherman_oaks_electricians']);
+Route::get('/studio-city', [MainController::class, 'studio_city']);
+Route::get('/west-hills-electricians', [MainController::class, 'west_hills_electricians']);
+Route::get('/west-hollywood-electricians', [MainController::class, 'west_hollywood_electricians']);
+Route::get('/woodland-hills', [MainController::class, 'woodland_hills']);
+Route::get('/universal-city', [MainController::class, 'universal_city']);
+
 
 //Auth routes
 Route::group(['namespace' => 'App\Http\Controllers'], function()

@@ -16,11 +16,33 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{url('aboutus')}}">about us </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{url('all-services')}}">electrical services </a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                all services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="{{url('commercial-electricians-riverside')}}">commercial
+                                        elctricians riverside</a></li>
+                                <li><a class="dropdown-item" href="{{url('electrical-services')}}">electrical services</a>
+                                </li>
+                                <li>
+                                </li>
+                                <li><a class="dropdown-item" href="{{url('commercial-electricians')}}"> commercial
+                                        electricians</a></li>
+                                <li><a class="dropdown-item" href="{{url('electrical-code-compliance')}}">
+                                        electrical-code-compliance</a></li>
+                                <li><a class="dropdown-item" href="{{url('electrical-subcontractors')}}">
+                                        electrical-subcontractors</a></li>
+                                <li><a class="dropdown-item"
+                                        href="{{url('residential-electricians')}}">Residential-Electricians </a></li>
+                                <li><a class="dropdown-item" href="{{url('agoura-hills')}}"> agoura-hills</a></li>
+                                <li><a class="dropdown-item" href="{{url('woodland-hills')}}"> woodland-hills</a></li>
+                                <li><a class="dropdown-item" href="{{url('universal-city')}}"> universal-city</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{url('all-services')}}">areas servies</a>
+                            <a class="nav-link" href="{{url('service-areas')}}">areas servies</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{url('contact-us')}}">contact us </a>
@@ -28,9 +50,9 @@
                     </ul>
                     <form class="d-flex ms-auto input-style" style="background-color:transparent;border:none;">
                         <div class="icon">
-                                <a href="#"> <i class="fa-brands fa-facebook"></i>
-                                <a href="#"> <i class="fa-brands fa-instagram"></i></a>
-                                <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/BarinElectrical"> <i class="fa-brands fa-facebook"></i>
+                                <a href="https://www.instagram.com/BarinElectrical/"> <i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://twitter.com/BarinElectrical/"> <i class="fa-brands fa-twitter"></i></a>
                         </div>
                     </form>
                 </div>

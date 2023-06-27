@@ -1,4 +1,5 @@
   <!-- ========== Start foooter ========== -->
+  
   <footer>
         <div class="container">
             <div class="bg-color">
@@ -23,7 +24,9 @@
                             </div>
                             <div class="text">
                                 <span> mail us</span>
-                                <p class="box-one">giratan966@akoption.com</p>
+                                <a href="" style="color: #fff;">
+                                    <p class="box-one">giratan966@akoption.com</p>
+                                </a>
                             </div>
 
 
@@ -50,9 +53,9 @@
                         <a class="navbar-brand" href="#">Barin <span class="Electrical">Electrical</span></a>
                         <p class="f-p">Lorem d amet, sit consectetur adipisicing elit. Necessitatibus, officiis.</p>
                         <div class="icon">
-                            <a href="#"> <i class="fa-brands fa-facebook"></i>
-                                <a href="#"> <i class="fa-brands fa-instagram"></i></a>
-                                <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/BarinElectrical"> <i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/BarinElectrical/"> <i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://twitter.com/BarinElectrical/"> <i class="fa-brands fa-twitter"></i></a>
                         </div>
                     </div>
 
@@ -65,22 +68,25 @@
                     <div class="menu">
                         <h2>menu</h2>
                         <li><a href="{{url('/')}}"> home</a></li>
-                        <li><a href="{{url('/aboutus')}}"> about us</a></li>
-                        <li><a href="{{url('/all-services')}}">electrical services </a></li>
-                        <li><a href="{{url('/all-services')}}"> areas servies</a></li>
-                        <li><a href="{{url('/contact-us')}}"> contact us</a></li>
+                        <li><a href="{{url('aboutus')}}"> about us</a></li>
+                        <li><a href="{{url('electrical-services')}}">electrical services </a></li>
+                        <li><a href="{{url('service-areas')}}"> areas servies</a></li>
+                        <li><a href="{{url('contact-us')}}"> contact us</a></li>
                     </div>
 
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12 ">
                     <div class="menu">
-                        <h2>servies</h2>
-                        <li><a href="#"> Loaded Electricity </a></li>
-                        <li><a href="#"> Place Power</a></li>
-                        <li><a href="#">Wire Cutters </a></li>
-                        <li><a href="#"> HighBar Electricals</a></li>
-                        <li><a href="#">Power Market </a></li>
+                        <h2>servies-areas</h2>
+                        <li><a href="{{url('calabasas-electricians')}}">Calabasas Electricians </a></li>
+                        <li><a href="{{url('encino')}}"> Encino Electricians </a></li>
+                        <li><a href="{{url('los-angeles-electricians')}}">Los Angeles Electricians</a></li>
+                        <li><a href="{{url('sherman-oaks-electricians')}}">sherman osks electricians</a></li>
+                        <li><a href="{{url('studio-city')}}">studio-city</a></li>
+
+                        <li><a href="{{url('west-hills-electricians')}}">West Hills Electricians</a></li>
+                        <li><a href="{{url('west-hollywood-electricians')}}">West Hollywood Electricians</a></li>
 
                     </div>
 
@@ -105,13 +111,7 @@
                 </div>
 
             </div>
-
-
-
-
-
         </div>
-
         </div>
     </footer>
     <!-- ========== End foooter ========== -->

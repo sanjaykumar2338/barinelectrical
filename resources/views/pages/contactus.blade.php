@@ -28,7 +28,7 @@
                         <p class="Our text-center">Our Contact Info and we' ll respond as soon as possible</p>
                         <div class="call-box">
                             <div class="icon">
-                                <img src="{{url('images/call.png')}}" alt="">
+                                <img src="{{url('/asset/frontend/images/call.png')}}" alt="">
                             </div>
                             <div class="text">
                                 <h6>Phone No</h6>
@@ -40,7 +40,7 @@
                         </div>
                         <div class="call-box">
                             <div class="icon">
-                                <img src="{{url('images/location.png')}}" alt="">
+                                <img src="{{url('/asset/frontend/images/location.png')}}" alt="">
                             </div>
                             <div class="text">
                                 <h6>Location</h6>
@@ -52,7 +52,7 @@
                         </div>
                         <div class="call-box">
                             <div class="icon">
-                                <img src="{{url('images/mail.png')}}" alt="">
+                                <img src="{{url('/asset/frontend/images/mail.png')}}" alt="">
                             </div>
                             <div class="text">
                                 <h6>Email Us</h6>

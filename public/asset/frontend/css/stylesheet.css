@@ -132,6 +132,27 @@ input:focus {
     text-transform: capitalize;
 }
 
+.dropdown-item {
+    text-transform: capitalize;
+    font-family: var(--normal-text-font-famaily);
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 17px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: var(--section--bg-2);
+    color: var(--white-color);
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    padding: 0px 0px;
+    border-radius: 10px;
+}
+
 /***** End header *****/
 
 /***** banner *****/
@@ -1613,18 +1634,21 @@ footer .set-the-padding {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.b-section-two h3{
+
+.b-section-two h3 {
     color: var(--white-color);
     font-size: 30px;
     font-family: 600;
 }
-.b-section-two  p{
+
+.b-section-two p {
     color: var(--white-color);
     font-size: 17px;
     padding-top: 5px;
     line-height: 26px;
 }
-.b-section-two button{
+
+.b-section-two button {
     margin-top: 10px;
     width: max-content;
     padding: 10px 20px;
@@ -1638,3 +1662,520 @@ footer .set-the-padding {
 
 /***** End banner-two-section *****/
 /* commercial .Electrical-riverside page css close */
+
+
+/***** electrical services pages css *****/
+/***** banner-services *****/
+#banner-services {
+    min-height: 600px;
+    background-image: url("../images/b-s.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+}
+
+#banner-services .text h3 {
+    text-align: center;
+    color: var(--white-color);
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+/***** End banner-services *****/
+
+/***** Start serrvies cards *****/
+#cards-section {
+    padding: 50px 0px 50px 0px;
+    background: #F8F8F8;
+}
+
+#cards-section .We-offer {
+    font-size: 17px;
+    color: var(--p-color);
+    text-align: center;
+    line-height: 27px;
+
+}
+
+#cards-section .style-box {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 40px;
+    transition: 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+#cards-section .style-box::after {
+    height: 6px;
+    left: 0%;
+    width: 0%;
+    transition: 0.2s;
+    position: absolute;
+    content: '';
+    background-color: var(--section--bg-2);
+    bottom: 0%;
+    left: 50%;
+}
+
+#cards-section .style-box:hover::after {
+    width: 100%;
+    left: 0%;
+}
+
+#cards-section .style-box .icon img {
+    background-color: var(--section--bg-2);
+    padding: 15px;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+#cards-section .style-box .text {
+    margin-top: 25px;
+}
+
+#cards-section .style-box .text h4 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#cards-section .style-box .text p {
+    color: var(--p-color);
+    font-size: 17px;
+    line-height: 27px;
+}
+
+#cards-section .style-box .text button {
+    padding: 10px 20px;
+    width: max-content;
+    color: var(--white-color);
+    border: none;
+    background-color: var(--section--bg-2);
+    margin-top: 10px;
+}
+
+/***** End Start serrvies cards *****/
+
+/***** End electrical services pages css *****/
+
+
+/* commerial electricians page css */
+#c-banner-section1 {
+    background-image: url(../images/b-11.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    align-items: center;
+}
+
+#c-banner-section1 .img-box img {
+    width: 100%;
+    border-radius: 5px !important;
+}
+
+#c-banner-section1 .text h3 {
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#c-banner-section1 .text {
+    padding-left: 20px;
+}
+
+#c-banner-section1 .text p {
+    color: var(--white-color);
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+#c-banner-section1 .text button {
+    padding: 10px 20px;
+    background-color: var(--section--bg-2);
+    color: white;
+    border: none;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+/* commerial electricians close css  */
+
+/***** section-2 *****/
+#section-2 {
+    padding: 50PX 0PX 50PX 0PX;
+    background-color: #f8f8f8;
+
+}
+
+#section-2 .text h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#section-2 .text p {
+    color: var(--p-color);
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+#section-2 .img img {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/***** End section-2 *****/
+
+/* section-3  */
+.section-3 {
+    padding: 50px 0px 50px 0px;
+
+}
+
+.section-3 .img img {
+    width: 100%;
+    padding-right: 10px;
+    border: 5px;
+}
+
+.section-3 .text h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section-3 .text p {
+    color: var(--p-color);
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+/* section-3 close  */
+
+/***** section-4 *****/
+.section-4 {
+    padding: 50px 0px 50px 0px;
+    background-color: #f8f8f8;
+}
+
+.section-4 .img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.section-4 .text h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section-4 .text p {
+    color: var(--p-color);
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+/***** End section-4 *****/
+
+
+/***** section5 *****/
+.section-5 {
+    padding: 50px 0px 50px 0px;
+    background-color: #f8f8f8;
+}
+
+.section-5 .img img {
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.section-5 .text h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section-5 .text p {
+    color: var(--p-color);
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+/***** End section5 *****/
+
+/***** section6 *****/
+.section-6 {
+    padding: 50px 0px 50px 0px;
+}
+
+.section-6 .img img {
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.section-6 .text h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section-6 .text p {
+    color: var(--p-color);
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+/***** End section6 *****/
+
+/***** section7 *****/
+.section7 {
+    padding: 50px 0px 50px 0px;
+    background-color: #f8f8f8;
+}
+
+.section7 .img img {
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.section7 .text h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section7 .text p {
+    color: var(--p-color);
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+
+/***** End section7 *****/
+
+/***** section8 *****/
+.section-8 {
+    padding: 50px 0px 50px 0px;
+
+}
+
+.section-8 .img img {
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.section-8 .text h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section-8 .text p {
+    color: var(--p-color);
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+/***** End section8 *****/
+/***** section9 *****/
+.section-9 {
+    padding: 50px 0px 50px 0px;
+    background-color: #f8f8f8;
+}
+
+.section-9 .img img {
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.section-9 .text h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section-9 .text p {
+    color: var(--p-color);
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+/***** End section9 *****/
+/* close the commercial electricians css  */
+
+
+/***** electrical-code-compliance *****/
+#code {
+    background-image: url(../images/b-section-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    min-height: 600px;
+    text-align: center;
+}
+
+#code h3 {
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+#code p {
+    color: var(--white-color);
+    font-size: 17px;
+
+}
+
+/* section close  */
+#s-1 {
+    padding: 50px 0px 50px 0px;
+    background-color: #F8F8F8;
+}
+
+#s-1 .img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#s-1 .text h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#s-1 .text p {
+    color: var(--p-color);
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+/* section close  */
+
+#s-3 {
+    padding: 50px 0px 50px 0px;
+}
+
+#s-3 .img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#s-3 .text h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#s-3 .text p {
+    color: var(--p-color);
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+/***** End electrical-code-compliance *****/
+
+
+/***** electrical-subcontractores *****/
+#b-1 {
+    min-height: 600px;
+    background-image: url("../images/slide-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+
+#b-1 h3 {
+    z-index: 777;
+    color: white;
+    font-size: 30px;
+}
+
+#b-1 p {
+    font-size: 17px;
+    padding-top: 5px;
+    color: var(--white-color);
+}
+
+/***** End electrical-subcontractores *****/
+
+
+
+/***** agoura-hills *****/
+#Agoura {
+    min-height: 600px;
+    background-image: url("../images/b-s.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#Agoura p {
+    color: var(--white-color);
+    font-size: 17px;
+
+}
+
+#Agoura h3 {
+    color: var(--white-color);
+
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+#a-1 {
+    padding: 50px 0px 50px 0px;
+}
+
+#a-1 .text h3 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+#a-1 .text p {
+    color: var(--p-color);
+    font-size: 17px;
+}
+
+#a-1 .text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#a-1 .text button {
+    padding: 10px 20px;
+    background: var(--section--bg-2);
+    font-size: 17px;
+    color: var(--white-color);
+    width: max-content;
+    border: none;
+    margin-top: 10px;
+}
+
+#a-1 iframe {
+    width: 100%;
+}
+
+#emergency h3 {
+    font-size: 15px;
+}
+
+/***** End agoura-hills *****/

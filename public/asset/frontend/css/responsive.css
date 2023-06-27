@@ -236,6 +236,40 @@
 }
 
 @media (max-width: 991.98px) {
+    .section-3 .text h3 {
+        padding-top: 20px;
+    }
+
+    .section-4 .text h3 {
+        padding-top: 20px;
+    }
+
+    .section-5 .text h3 {
+        padding-top: 20px;
+    }
+
+    .section-6 .text h3 {
+        padding-top: 20px;
+    }
+
+    .section-7 .text h3 {
+        padding-top: 20px;
+    }
+
+    .section-8 .text h3 {
+        padding-top: 20px;
+    }
+
+    .section-8 .text h3 {
+        padding-top: 20px;
+    }
+
+
+    #c-banner-section1 .img-box img {
+
+        padding-bottom: 10px;
+    }
+
     #b-section-1 .text h3 {
         padding-top: 12px;
     }
@@ -475,6 +509,50 @@
 }
 
 @media (max-width: 767.98px) {
+    #emergency h3 {
+        font-size: 15px;
+    }
+
+    #code h3 {
+        font-size: 23px;
+    }
+
+    #code p {
+        font-size: 16px;
+    }
+
+    #s-1 .text h3 {
+        font-size: 25px;
+    }
+
+    #s-3 .text h3 {
+        font-size: 25px;
+        padding-top: 8px;
+    }
+
+    #cards-section .style-box .text p {
+        font-size: 15px;
+    }
+
+    #cards-section .style-box .text h4 {
+        font-size: 19px;
+    }
+
+    #cards-section .style-box {
+        padding: 17px;
+
+    }
+
+    #cards-section .We-offer {
+        font-size: 14px;
+
+    }
+
+    #cards-section {
+        padding: 30px 0px 30px 0px;
+    }
+
+
     #banner-section .left-side-style .img-box img {
         width: 100%;
     }
@@ -1078,12 +1156,252 @@
     .b-section-two h3 {
         font-size: 20px;
     }
+
     .b-section-two p {
         font-size: 16px;
         text-align: justify;
     }
+
     .b-section-two {
         padding: 20px 0px 20px 0px;
+    }
+
+    #banner-services {
+        min-height: 200px;
+    }
+
+    #banner-services .text h3 {
+        font-size: 25px;
+    }
+
+    #cards-section {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .heading-style {
+        font-size: 20px;
+    }
+
+    #cards-section .We-offer {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    #cards-section .style-box {
+
+        margin-top: 20px;
+
+    }
+
+    #section-2 {
+        padding: 20PX 0PX 20PX 0PX;
+    }
+
+    #section-2 .text h3 {
+        font-size: 25px;
+    }
+
+    #section-2 .text p {
+        font-size: 15px;
+        padding-top: 5px;
+        text-align: justify;
+    }
+
+    .section-3 {
+        padding: 20PX 0PX 20PX 0PX;
+    }
+
+    .section-4 {
+        padding: 20PX 0PX 20PX 0PX;
+    }
+
+    .section-5 {
+        padding: 20PX 0PX 20PX 0PX;
+    }
+
+    .section-6 {
+        padding: 20PX 0PX 20PX 0PX;
+    }
+
+    .section-7 {
+        padding: 20PX 0PX 20PX 0PX;
+    }
+
+    .section-8 {
+        padding: 20PX 0PX 20PX 0PX;
+    }
+
+    .section-9 {
+        padding: 20PX 0PX 20PX 0PX;
+    }
+
+    .section-3 .text h3 {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    .section-3 .text p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .section-4 .text h3 {
+        font-size: 22px;
+    }
+
+    .section-4 .text p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .section-5 .img img {
+        padding-left: 0px;
+    }
+
+    .section-5 .text h3 {
+        font-size: 22px;
+    }
+
+    .section-5 .text p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .section-6 .text h3 {
+        font-size: 23px;
+    }
+
+    .section-6 .text p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .section7 {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .section7 .img img {
+        padding-left: 0px;
+    }
+
+    .section7 .text h3 {
+        font-size: 19px;
+        font-weight: 600;
+        padding-top: 14px;
+    }
+
+    .section7 .text p {
+        font-size: 16px;
+    }
+
+    .section-8 .text h3 {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    .section-8 .text p {
+
+        text-align: justify;
+    }
+
+    .section-8 .img img {
+
+        padding-left: 0px;
+    }
+
+    .section-9 .text h3 {
+        font-size: 25px;
+        padding-top: 13px;
+    }
+
+    .section-9 .text p {
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    #c-banner-section1 .text h3 {
+        font-size: 24px;
+    }
+
+    #c-banner-section1 .text p {
+        font-size: 16px;
+    }
+
+    #code h3 {
+        font-size: 16px;
+        line-height: 23px;
+
+    }
+
+    #code p {
+        font-size: 13px;
+    }
+
+    #s-1 {
+        padding: 20px 0px 20px 0px;
+    }
+
+    #s-1 .text p {
+        font-size: 15px;
+        TEXT-ALIGN: JUSTIFY;
+    }
+
+    #s-3 {
+        padding: 20px 0px 20px 0px;
+    }
+
+    #s-3 .text h3 {
+        font-size: 18px;
+        padding-top: 8px;
+        LINE-HEIGHT: 24PX;
+    }
+
+    /* electrical-subcontratcots */
+    #b-1 h3 {
+        font-size: 18px;
+    }
+
+    #b-1 p {
+        font-size: 16px;
+    }
+
+    #s-1 .text h3 {
+        font-size: 20px;
+    }
+
+    #s-3 .text p {
+        font-size: 16px;
+    }
+
+    #c-banner-section1 {
+
+        min-height: 200px;
+    }
+
+    #a-1 {
+        padding: 20px 0px 20px 0px;
+    }
+
+    #a-1 .text h3 {
+        font-size: 22px;
+    }
+
+    #a-1 .text p {
+        color: var(--p-color);
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    #a-1 .text button {
+        border-bottom: 8px solid #fff;
+    }
+
+    #emergency h3 {
+        font-size: 17px;
+    }
+
+    #section-2 .text h3 {
+        font-size: 20px;
     }
 }
 
