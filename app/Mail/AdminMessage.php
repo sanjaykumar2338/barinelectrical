@@ -37,7 +37,7 @@ class AdminMessage extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Ejobspros - '.$this->type,
+            subject: 'Barinelectrical',
         );
     }
 

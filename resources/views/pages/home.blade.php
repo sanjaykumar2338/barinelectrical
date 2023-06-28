@@ -73,12 +73,12 @@
                             <button class=""> schedule now</button>
                         </div>
                         <div class="input-text">
-                            <p>Lorem ipsum dolor . quisquam qui , architecto sint aut, exercitationem alias aspernatur
-                                neque accusantium inventore illo saepe ipsa.</p>
-                            <form action="">
-                                <input type="text" name="" id="" placeholder="name">
-                                <input type="email" name="" id="" placeholder="email">
-                                <textarea name="" id="" rows="4" placeholder="Message "></textarea>
+                            
+                            <form action="{{url('post_appointment')}}" method="post" name="post_appointment">
+                                @csrf
+                                <input type="text" required name="name" id="" placeholder="name">
+                                <input type="email" required name="email" id="" placeholder="email">
+                                <textarea name="message" required id="" rows="4" placeholder="Message "></textarea>
                                 <button class="send">send</button>
                             </form>
                         </div>
@@ -120,7 +120,7 @@
                             data into your
                             smart home or building. Enjoy safety, security and comfort at your business. We connect your
                             machines and equipment to your network</p>
-                        <button class="Learn"> Learn More</button>
+                        <a href="{{url('service-areas')}}" class="Learn">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -181,9 +181,7 @@
                             <img src="{{url('/asset/frontend/images/watch.png')}}" alt="">
                         </div>
                         <div class="text">
-                            <p>Our commitment to companies, factories and small business is the reason why we provide
-                                our 24 hour emergency electrical repair services. We are available when your electric
-                                gate is down and when you are having problems with parking lot lighting.
+                            <p>New commercial constructions are different than residential constructions with coding and the scope of versatility an electrical system may need to have for a commercial building. Our goal is to work with your other contractors and understand their long-term electrical needs to best setup the electric panels, circuits, wiring, and capabilities from the beginning.
                             </p>
                         </div>
                     </div>
@@ -195,9 +193,7 @@
                             <img src="{{url('/asset/frontend/images/icon-1.png')}}" alt="">
                         </div>
                         <div class="text">
-                            <p>Our commitment to companies, factories and small business is the reason why we provide
-                                our 24 hour emergency electrical repair services. We are available when your electric
-                                gate is down and when you are having problems with parking lot lighting.
+                            <p>Our electrical team provides a complete electrical plan on paper before physical installation. This helps everyone involved in a commercial project to visualize the impacts of an upgrade, retrofit, repair, or construction. Commercial wiring carries more power than a residential project, including 480 and 600 volts. Our goal is to optimize your business’ electrical design.
                             </p>
                         </div>
                     </div>
@@ -210,9 +206,7 @@
 
                         </div>
                         <div class="text">
-                            <p>Our commitment to companies, factories and small business is the reason why we provide
-                                our 24 hour emergency electrical repair services. We are available when your electric
-                                gate is down and when you are having problems with parking lot lighting.
+                            <p>Electrical upgrades are a fantastic marketing tool for any business today. “Going green” and being “Earth-friendly” can radically impact your customer base targets, and many businesses in Los Angeles need an electrical contractor with the ability to do energy efficient upgrades and retrofits in their commercial properties.
                             </p>
                         </div>
                     </div>
@@ -225,9 +219,7 @@
 
                         </div>
                         <div class="text">
-                            <p>Our commitment to companies, factories and small business is the reason why we provide
-                                our 24 hour emergency electrical repair services. We are available when your electric
-                                gate is down and when you are having problems with parking lot lighting.
+                            <p>Proper commercial switchboard installation avoids costly interruptions. It’s clear that any outdated switchboards pose a fire hazard, but more common these days is a loss of electricity and a loss of income due to the power outage. We help our commercial clients prepare for these outages and to maintain equipment over the years, too.
                             </p>
                         </div>
                     </div>
@@ -253,10 +245,9 @@
                             <img src="{{url('/asset/frontend/images/card.jpg')}}" alt="">
                         </div>
                         <div class="text">
-                            <h4>smart electric wiring for home </h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique obcaecati rem deserunt
-                                aliquam? Inventore eveniet magnam harum .</p>
-                            <button class="learn"> learn more</button>
+                            <h4>smart electric wiring for Residential  </h4>
+                            <p>At Barin Electrical , we take pride in becoming your trustworthy residential electricians of Los Angeles. Let us maintain your home’s electrical systems or help you upgrade to the most efficient energy sources.</p>
+                            <button class="learn"><a style="color:white;" href="{{url('residential-electricians')}}"> learn more</a></button>
                         </div>
                     </div>
 
@@ -267,10 +258,9 @@
                             <img src="{{url('/asset/frontend/images/img-2.jpg')}}" alt="">
                         </div>
                         <div class="text">
-                            <h4>smart electric wiring for home </h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique obcaecati rem deserunt
-                                aliquam? Inventore eveniet magnam harum .</p>
-                            <button class="learn"> learn more</button>
+                            <h4>smart electric wiring for Commercial  </h4>
+                            <p>We offer the following commercial electrical services: New Constructions Complete Electrical System Designs Energy Efficient Upgrades and Retrofits Switchboard Installation & Maintenance Power Service Installations Commercial Network</p>
+                            <button class="learn"><a  style="color:white;" href="{{url('commercial-electricians')}}"> learn more</a></button>
                         </div>
                     </div>
 
@@ -281,10 +271,9 @@
                             <img src="{{url('/asset/frontend/images/img-3.jpg')}}" alt="">
                         </div>
                         <div class="text">
-                            <h4>smart electric wiring for home </h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique obcaecati rem deserunt
-                                aliquam? Inventore eveniet magnam harum .</p>
-                            <button class="learn"> learn more</button>
+                            <h4>Agoura Hills Electricians </h4>
+                            <p>If you need electrical repairs, wiring, power system installations or upgrades, and need an expert Agoura Hills electrician,Contact us today for a licensed electrical contractor!Whether you live near the Santa Monica Mountains</p>
+                            <button class="learn"><a style="color:white;" href="{{url('/agoura-hills')}}">learn more</a></button>
                         </div>
                     </div>
 
@@ -307,7 +296,7 @@
                     <h4>24/7 emergency Electrical services</h4>
                 </div>
                 <div class="col-md-3 col-sm-6 col-12  d-flex justify-content-center align-items-center">
-                    <button>call us now</button>
+                    <button><a style="color:black;" href="tel:8185856123">call us now</a></button>
                 </div>
             </div>
 

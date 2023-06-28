@@ -92,11 +92,11 @@
                         <tbody style="margin-top: 15px;">
                            <tr class="">
                               <td class="">
-                                 <img alt="ejobs4pros" class="" height="" src="{{url('/asset/images/logo.png')}}" width="">
+                                 <img alt="{{env('APP_NAME')}}" class="" height="" src="{{url('/asset/images/logo.png')}}" width="">
                               </td>
                            </tr>
                            <tr class="">
-                              <td class="headline">Hey Ejobspros Admin,</td>
+                              <td class="headline">Hey {{env('APP_NAME')}} Admin,</td>
                            </tr>
                            <tr>
                               <td>
@@ -120,6 +120,21 @@
 
                                                 <p>Best regards!</p>
                                                 @endif
+
+                                                @if($type=='contactus')
+                                                <p>The customer contact us:</p>
+
+                                                Name: {{$data->name}},<br>
+                                                Email: {{$data->email}},<br>
+                                                Message: {{$data->message}},<br>
+                                                Mobile: {{@$data->mobile}},<br>
+
+                                                <p>Best regards!</p>
+                                                @endif
+
+
+
+
                                                 <br><br><br>
                                              </td>
                                           </tr>
@@ -134,7 +149,7 @@
                            <tr>
                               <td class="">
                                  <div class="">
-                                    <a style="background-color:#674299;border-radius:4px;color:#fff;display:inline-block;font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:normal;line-height:50px;text-align:center;text-decoration:none;width:350px;-webkit-text-size-adjust:none;" href="{{url('/')}}">ejobs4pros</a>
+                                    <a style="background-color:#674299;border-radius:4px;color:#fff;display:inline-block;font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:normal;line-height:50px;text-align:center;text-decoration:none;width:350px;-webkit-text-size-adjust:none;" href="{{url('/')}}">{{env('APP_NAME')}}</a>
                                  </div>
                                  <br>
                               </td>

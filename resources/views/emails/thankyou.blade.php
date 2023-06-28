@@ -92,7 +92,7 @@
                         <tbody style="margin-top: 15px;">
                            <tr class="">
                               <td class="">
-                                 <img alt="ejobs4pros" class="" height="" src="{{url('/asset/images/logo.png')}}" width="">
+                                 <img alt="{{env('APP_NAME')}}" class="" height="" src="{{url('/asset/images/logo.png')}}" width="">
                               </td>
                            </tr>
                            <tr class="">
@@ -139,7 +139,7 @@
                            <tr>
                               <td class="">
                                  <div class="">
-                                    <a style="background-color:#674299;border-radius:4px;color:#fff;display:inline-block;font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:normal;line-height:50px;text-align:center;text-decoration:none;width:350px;-webkit-text-size-adjust:none;" href="{{url('/')}}">ejobs4pros</a>
+                                    <a style="background-color:#674299;border-radius:4px;color:#fff;display:inline-block;font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:normal;line-height:50px;text-align:center;text-decoration:none;width:350px;-webkit-text-size-adjust:none;" href="{{url('/')}}">{{env('APP_NAME')}}</a>
                                  </div>
                                  <br>
                               </td>

@@ -277,50 +277,21 @@ class GetQuoteController extends Controller
     {   
         //print_r($request->all()); die;
         try{
-            $validated = $request->validate([
-                'your_name' => 'required',
-                'last_name' => 'required',
-                'email' => 'required',
-                'contact_number' => '',
-                'website_url' => '',
-                'date' => 'required',
-                'time' => 'required',
-                'place' => ''
-            ]);
+                $user = new \stdClass();
+                $user->name = $request->name;
+                $user->email = $request->email;
+                $user->message = $request->message;
 
-            $objt = New Appointment;
-            $objt->first_name = $request->your_name;
-            $objt->last_name = $request->last_name;
-            $objt->email = $request->email;
-            $objt->phone_number = $request->contact_number;
-            $objt->website_url = $request->website_url;
-            $objt->time = $request->time;
-            $objt->date = $request->date;
-            $objt->place = $request->place;
-            $objt->user_id = Auth::id();
-
-            if($objt->save()){
-                $user = User::where('role','admin')->first();
-                $type='Appointment';
-
+                $type='contactus';
                 $contactus_email = new \stdClass();
-                $contactus_email->email = 'contact@ejobs4pros.com';
-                Mail::to($contactus_email)->send(new AdminMessage($objt,$type,$objt));
-
-                $contactus_email->email = 'dev@ejobs4pros.com';
-                Mail::to($contactus_email)->send(new AdminMessage($objt,$type,$objt));
-
-                $contactus_email->email = 'gabriel@ejobs4pros.com';
-                Mail::to($contactus_email)->send(new AdminMessage($objt,$type,$objt));
-
+                $contactus_email->email = 'barinelectrical@gmail.com';
+                //$contactus_email->email = 'sk963070@gmail.com';
+                $message = '';
+                Mail::to($contactus_email)->send(new AdminMessage($message,$type,$user));
               
-                Mail::to($user)->send(new AdminMessage($objt,$type,$objt));
-                Mail::to($objt)->send(new Thankyou($objt,$type));
+                Mail::to($user)->send(new Thankyou($user,$type));
                 
-                return redirect()->back()->with('message', 'Appointment Schedule Successfully!');   
-            }
-
-            return redirect()->back()->with('message', 'there is an error, try again!');   
+                return redirect()->back()->with('message', 'Thankyou, will contact you soon!');     
         }catch(\Exceptions $e){
             return redirect()->back()->with('message', $e->getMessage());   
         }   

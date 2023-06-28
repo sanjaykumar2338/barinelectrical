@@ -35,7 +35,7 @@ class Thankyou extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Ejobspros - Thank you reaching to us!!!',
+            subject: 'Barinelectrical - Thank you reaching to us!!!',
         );
     }
 

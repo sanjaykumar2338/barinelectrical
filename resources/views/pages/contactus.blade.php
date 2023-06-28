@@ -65,10 +65,11 @@
 
                         <!-- icons  -->
                         <div class="s-cions">
-                            <a href=""><i class="fa-brands fa-instagram"></i></a>
-                            <a href=""><i class="fa-brands fa-twitter"></i></a>
-                            <a href=""><i class="fa-brands fa-youtube"></i></a>
-                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/BarinElectrical"> <i class="fa-brands fa-facebook"></i>
+                            <a href="https://www.instagram.com/BarinElectrical/"> <i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/BarinElectrical/"> <i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.youtube.com/watch?v=IVUIfAGHT8c"><i class="fa-brands fa-youtube"></i></a>
+                            
                         </div>
                     </div>
 
@@ -79,12 +80,12 @@
                     <div class="form-style">
                         <p class="Have">Have a question?</p>
                         <h4>get in touch</h4>
-                        <form action="">
-                            <input type="text" placeholder="First name" name="" id="">
-                            <input type="text" placeholder="last name" id="">
-                            <input type="email" placeholder="email" name="" id="">
-                            <input type="tel" placeholder="mobile no" name="" id="">
-                            <textarea name="" rows="4" placeholder="message"></textarea>
+                        <form action="{{url('post_appointment')}}" method="post" name="post_appointment">
+                            @csrf
+                            <input type="text" required placeholder="Full name" name="name" id="">
+                            <input type="email" required placeholder="email" name="email" id="">
+                            <input type="tel" required placeholder="mobile no" name="mobile" id="">
+                            <textarea required name="message" rows="4" placeholder="message"></textarea>
                             <button class="send mt-5">send</button>
                         </form>
 
