@@ -296,7 +296,7 @@
                     <h4>24/7 emergency Electrical services</h4>
                 </div>
                 <div class="col-md-3 col-sm-6 col-12  d-flex justify-content-center align-items-center">
-                    <button><a style="color:black;" href="tel:8185856123">call us now</a></button>
+                    <a style="color:black;" href="tel:8185856123"><button>call us now</button></a>
                 </div>
             </div>
 
@@ -319,27 +319,26 @@
                 <div class="carousel-item active">
                     <img src="{{url('/asset/frontend/images/slide-1.jpg')}}" class="d-block w-100" alt="...">
                     <div class="carousel-caption ">
-                        <h5>general electrical cintractors for commercial <br> industrial projects</h5>
-                        <p>we are commercial electrical contractors in los angeles</p>
-                        <button> Read more</button>
+                        <h5>Electrical Services Los Angeles <br> industrial projects</h5>
+                        <p>We offer the best and most reliable electrical services in Los Angeles. We have a team of experts, from residential electricians and commercial electricians, including electrical subcontractors and experts in electrical code compliance.</p>
+                        <button><a style="color:white;" href="{{url('electrical-services')}}">Read more</a></button>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{url('/asset/frontend/images/Group 3.jpg')}}" class="d-block w-100" alt="...">
                     <div class="carousel-caption">
-                        <h5>general electrical cintractors for commercial <br> industrial projects</h5>
+                        <h5>Electrical Subcontractors For Property Management Of Multifamily Residential Buildings</h5>
 
-                        <p>we are commercial electrical contractors in los angeles</p>
-                        <button> Read more</button>
+                        <p>Many times a property manager needs to have licensed electricians as part of their team to manage and maintain multifamily residential buildings in Los Angeles. In these situations, we provide safety checks, 24 hour electrical services, and emergency repairs for existing electric power sources and energy plans.</p>
+                        <button><a style="color:white;" href="{{url('electrical-subcontractors')}}">Read more</a></button>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{url('/asset/frontend/images/slide-3.jpg')}}" class="d-block w-100" alt="...">
                     <div class="carousel-caption ">
-                        <h5>general electrical cintractors for commercial <br> industrial projects</h5>
-
-                        <p>we are commercial electrical contractors in los angeles</p>
-                        <button> Read more</button>
+                        <h5>Universal City Electricians</h5>
+                        <p>A Universal City electrician handles major electricity demands from major commercial companies to tourist attractions. The bulk of this small town’s electricity challenges the power grid and our experts know how to troubleshoot electrical shortages, circuit issues, wire malfunctions, connectivity issues, and more</p>
+                        <button><a style="color:white;" href="{{url('universal-city')}}">Read more</a></button>
                     </div>
                 </div>
             </div>

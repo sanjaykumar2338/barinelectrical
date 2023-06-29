@@ -34,7 +34,7 @@
                             <p>Our residential electricians provide residential electrical services in Los Angeles,
                                 taking care of your home and ensuring you and your family’s safety first. From home
                                 inspections to minor and major repairs, we are the best.</p>
-                            <button> Read more</button>
+                            <button><a href="{{url('residential-electricians')}}" style="color:#ffffff;">Read more</a></button>
                         </div>
 
 
@@ -51,7 +51,7 @@
                             <p>Our commercial electricians provide commercial electrical services in Los Angeles,
                                 ensuring quality, efficiency, and professional solutions to all of your business,
                                 corporate, government, and large-scale electrical projects..</p>
-                            <button> Read more</button>
+                            <button><a href="{{url('commercial-electricians')}}" style="color:#ffffff;">Read more</a></button>
                         </div>
 
 
@@ -68,7 +68,7 @@
                             <p>As electrical subcontractors, we help fulfill your residential or commercial contracting
                                 work in electrical jobs. From project managers to prime contractors, we work with you
                                 every step of the way to get it all done right.</p>
-                            <button> Read more</button>
+                            <button><a href="{{url('electrical-subcontractors')}}" style="color:#ffffff;">Read more</a></button>
                         </div>
 
 
@@ -85,7 +85,7 @@
                             <p>All of our services follow the National Electric Code (NEC), which is a standard for safe
                                 installation and handling of all electrical wiring work. We follow the American National
                                 Standards Institute for electrical code compliance.</p>
-                            <button> Read more</button>
+                            <button><a href="{{url('electrical-code-compliance')}}" style="color:#ffffff;">Read more</a></button>
                         </div>
 
 

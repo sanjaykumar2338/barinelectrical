@@ -21,7 +21,7 @@
                             need a licensed master contractor to wire up residential homes, commercial buildings and
                             industrial factories. We are always prepared.
                         </p>
-                        <button class="GET">GET A FREE QUOTE</button>
+                        <button class="GET"><a href="{{url('contact-us')}}" style="color:#ffffff;">GET A FREE QUOTE</a></button>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">

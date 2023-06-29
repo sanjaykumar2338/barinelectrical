@@ -132,9 +132,11 @@
                                                 <p>Best regards!</p>
                                                 @endif
 
-
-
-
+                                                @if($type=='newsletter')
+                                                <p>The customer subscribed newsletter:</p>
+                                                Email: {{$data->email}},<br>
+                                                <p>Best regards!</p>
+                                                @endif
                                                 <br><br><br>
                                              </td>
                                           </tr>

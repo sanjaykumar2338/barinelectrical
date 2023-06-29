@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Mail\Thankyou;
+use App\Mail\AdminMessage;
+use App\Mail\Contactus as ContactsMail;
+use Illuminate\Support\Facades\Mail;
 
 class MainController extends Controller
 {
@@ -81,5 +85,23 @@ class MainController extends Controller
         return view('pages.allservices.universal-city');
     }
 
-    
+    public function subscribe_newletter(Request $request){
+        try{
+            $user = new \stdClass();           
+            $user->email = $request->newsletter_email;
+
+            $type='newsletter';
+            $contactus_email = new \stdClass();
+            $contactus_email->email = 'barinelectrical@gmail.com';
+            //$contactus_email->email = 'sk963070@gmail.com';
+            $message = 'test';
+            Mail::to($contactus_email)->send(new AdminMessage($message,$type,$user));
+          
+            Mail::to($user)->send(new Thankyou($user,$type));
+            
+            return redirect()->back()->with('message', 'Newsletter subscribe successfully !');     
+    }catch(\Exceptions $e){
+            return redirect()->back()->with('message', $e->getMessage());   
+        }   
+    }    
 }

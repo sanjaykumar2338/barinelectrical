@@ -101,6 +101,8 @@ Route::get('/west-hills-electricians', [MainController::class, 'west_hills_elect
 Route::get('/west-hollywood-electricians', [MainController::class, 'west_hollywood_electricians']);
 Route::get('/woodland-hills', [MainController::class, 'woodland_hills']);
 Route::get('/universal-city', [MainController::class, 'universal_city']);
+Route::post('/subscribe_newletter', [MainController::class, 'subscribe_newletter']);
+
 
 
 //Auth routes

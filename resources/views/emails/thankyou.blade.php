@@ -105,6 +105,10 @@
                                  <td class="headline">Hey {{$quote->first_name}} {{$quote->last_name}},</td>
                               @endif
 
+                              @if($type=='newsletter')
+                                 <td class="headline">Hey {{$quote->email}},</td>
+                              @endif
+
                            </tr>
                            <tr>
                               <td>
@@ -122,7 +126,13 @@
                                                    <p>Dear {{$quote->first_name}} {{$quote->last_name}}, Thank you for reaching out! You are an invaluable part of everything we do here. And we’re absolutely thrilled to hear from you.</p>
                                                 @endif
 
-                                                <p>Be it your suggestions, ideas, or even criticism, our inbox is always waiting for your messages, so talk to us like you have today any time and often.</p>
+                                                @if($type=='newsletter')
+                                                   <p>Dear {{$quote->email}}, Thank you for subscribed our newsletter!!!.</p>
+                                                @endif
+
+                                                @if($type!='newsletter')
+                                                   <p>Be it your suggestions, ideas, or even criticism, our inbox is always waiting for your messages, so talk to us like you have today any time and often.</p>
+                                                @endif
 
                                                 <p>Cheers!</p>                                               
                                                 <br><br><br>

@@ -4,27 +4,29 @@
         <div class="container">
             <div class="bg-color">
                 <div class="row">
-                    <div class="col-md-4  ">
-                        <div class="style set-border">
-                            <div class="icons">
-                                <i class="fa-solid fa-font-awesome"></i>
+                    
+                    <!--
+                        <div class="col-md-4  ">
+                            <div class="style set-border">
+                                <div class="icons">
+                                    <i class="fa-solid fa-font-awesome"></i>
+                                </div>
+                                <div class="text">
+                                    <span>you us</span>
+                                    <p class="box-one">Lorem ipsum, . Aperiam, nihil?</p>
+                                </div>
                             </div>
-                            <div class="text">
-                                <span>you us</span>
-                                <p class="box-one">Lorem ipsum, . Aperiam, nihil?</p>
-                            </div>
-
                         </div>
+                    -->
 
-                    </div>
-                    <div class="col-md-4 ">
+                    <div class="col-md-6 ">
                         <div class="style set-border">
                             <div class="icon">
                                 <i class="fa-regular fa-envelope"></i>
                             </div>
                             <div class="text">
                                 <span> mail us</span>
-                                <a href="" style="color: #fff;">
+                                <a href="mailto:giratan966@akoption.com" style="color: #fff;">
                                     <p class="box-one">giratan966@akoption.com</p>
                                 </a>
                             </div>
@@ -33,14 +35,14 @@
                         </div>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="style ">
                             <div class="icon">
                                 <i class="fa-solid fa-tty"></i>
                             </div>
                             <div class="text">
                                 <span> call us</span>
-                                <p class="box-one">8185856123</p>
+                                <p class="box-one"><a style="color: white;" href="tel:8185856123">8185856123</p>
                             </div>
                         </div>
                     </div>
@@ -51,7 +53,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12  ">
                     <div class="logo">
                         <a class="navbar-brand" href="#">Barin <span class="Electrical">Electrical</span></a>
-                        <p class="f-p">Lorem d amet, sit consectetur adipisicing elit. Necessitatibus, officiis.</p>
+                        <p class="f-p">Follow us on social media</p>
                         <div class="icon">
                                 <a href="https://www.facebook.com/BarinElectrical"> <i class="fa-brands fa-facebook"></i></a>
                                 <a href="https://www.instagram.com/BarinElectrical/"> <i class="fa-brands fa-instagram"></i></a>
@@ -95,18 +97,22 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-0">
                     <div class="menu">
                         <h2>Newsletter</h2>
-                        <form action="">
-                            <div class="input-group mb-3 form-style">
-                                <input type="text" class="" placeholder="enter the mail"
+                        <form name="newsletter_email_frm" class="newsletter_email_frm" method="post" action="{{url('subscribe_newletter')}}">
+                            @csrf
+                            <div class="input-group mb-3 form-style newsletter-signup">
+                                <input type="email" name="newsletter_email" required style="color: white;" class="newsletter_email" placeholder="enter the mail"
                                     aria-label="Amount (to the nearest dollar)">
                                 <span class="input-group-text"><img src="images/send.png" alt=""></span>
                             </div>
-                            <div class="set-input">
+                            <div class="set-input" style="display:none">
                                 <input type="checkbox" name="" id="" class="checkbox">
-                                <span class="I-agree">I agree to all your terms and policies</span>
+                                <span class="I-agree">I agree to all your terms and policies</span>                                
                             </div>
+                            <button type="submit" class="CALL subscribe_btn" style="background-color: #f6821e;
+                                float: left;
+                                margin-top: 7px;
+                                color: white;">Subscribe!</button>
                         </form>
-
                     </div>
                 </div>
 
@@ -124,6 +130,28 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="{{url('/asset/frontend/js/bootstrap.bundle.min.js')}}"></script>
     <script>
+
+        $( ".subscribe_btn" ).click(function(e) {
+            e.preventDefault();            
+            let email = $('.newsletter_email').val();
+            if(email){
+                if(validateEmail(email)){
+                    $( ".newsletter_email_frm" ).submit();
+                }else{
+                    alert('enter valid email..');
+                }
+            }
+        });
+
+        function validateEmail(email) {
+            var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+            if (!emailReg.test(email)) {
+                return false;
+            } else {
+                return true;
+            }
+        }
+
         $('#c-one').owlCarousel({
             loop: true,
             margin: 45,
