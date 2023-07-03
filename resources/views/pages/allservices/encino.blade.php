@@ -1,6 +1,10 @@
- 
-@extends('layouts.homepage')
+ @extends('layouts.homepage')
 @section('content')
+
+ <title>Encino Electricians</title>
+ <meta name="description" content="Schedule a residential or commercial electrical system service. Get best electricians in Encino for home wiring and circuit repairs, upgrades and installation.">
+ <meta name="keywords" content="Encino electricians, electrical contractors Encino">
+
  <!-- ========== Start section-1 ========== -->
  <section id="Agoura">
         <div class="container">

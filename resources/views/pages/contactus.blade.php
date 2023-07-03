@@ -4,8 +4,11 @@
     @if (Session::has('message'))
        <div class="alert alert-info">{{ Session::get('message') }}</div>
     @endif
-    
-     <!-- ========== End header ========== -->
+        
+    <title>Barin Electrical</title>
+    <meta name="description" content="Barin Electrical, Get indoor and outdoor lighting, security cameras and electrical circuit repair. Hire Woodland Hills electricians for residential or commercial electrical work.">
+    <meta name="keywords" content="Barin Electrical, electrical contractors Woodland Hills"> 
+
     <!-- ========== Start c-section ========== -->
 
     <section id="c-section">

@@ -2,7 +2,9 @@
 @extends('layouts.homepage')
 @section('content')
     
-<!-- ========== End header ========== -->
+   <title>West Hollywood Electricians </title>
+   <meta name="description" content="Licensed West Hollywood electricians. Hire us for residential and commercial electrical projects. Call 24 hours a day for emergency electrical repairs.">
+   <meta name="keywords" content="West Hollywood electricians, electrical contractors West Hollywood">
 
     <!-- ========== Start section-1 ========== -->
     <section id="Agoura">

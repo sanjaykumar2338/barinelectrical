@@ -1,7 +1,7 @@
 <header>
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container">
-                <a class="navbar-brand" href="{{url('/')}}"><img src="{{url('/asset/frontend/images/logo.jpg')}}" alt=""></a>
+                <a class="navbar-brand" href="{{url('/')}}"><img width="325" height="68" src="{{url('/asset/frontend/images/barin-mobile-logo-1.png')}}" alt=""></a>
                 <!-- <a class="navbar-brand" href="#">Barin  <span class="Electrical">Electrical</span></a> -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -19,30 +19,31 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                all services
+                                Electrical Services
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="{{url('commercial-electricians-riverside')}}">commercial
-                                        elctricians riverside</a></li>
-                                <li><a class="dropdown-item" href="{{url('electrical-services')}}">electrical services</a>
-                                </li>
-                                <li>
-                                </li>
-                                <li><a class="dropdown-item" href="{{url('commercial-electricians')}}"> commercial
-                                        electricians</a></li>
-                                <li><a class="dropdown-item" href="{{url('electrical-code-compliance')}}">
-                                        electrical-code-compliance</a></li>
-                                <li><a class="dropdown-item" href="{{url('electrical-subcontractors')}}">
-                                        electrical-subcontractors</a></li>
-                                <li><a class="dropdown-item"
-                                        href="{{url('residential-electricians')}}">Residential-Electricians </a></li>
-                                <li><a class="dropdown-item" href="{{url('agoura-hills')}}"> agoura-hills</a></li>
-                                <li><a class="dropdown-item" href="{{url('woodland-hills')}}"> woodland-hills</a></li>
-                                <li><a class="dropdown-item" href="{{url('universal-city')}}"> universal-city</a></li>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">        
+                                <li><a class="dropdown-item" href="{{url('residential-electricians')}}">Residential-Electricians </a></li>                        
+                                <li><a class="dropdown-item" href="{{url('commercial-electricians')}}">commercial electricians</a></li>
+                                <li><a class="dropdown-item" href="{{url('electrical-subcontractors')}}">electrical-subcontractors</a></li>
+                                <li><a class="dropdown-item" href="{{url('electrical-code-compliance')}}">electrical-code-compliance</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{url('service-areas')}}">areas servies</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Service Areas</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="{{url('agoura-hills')}}">agoura hills</a></li>
+                                <li><a class="dropdown-item" href="{{url('calabasas-electricians')}}">calabasas</a></li>
+                                <li><a class="dropdown-item" href="{{url('encino')}}">encino</a></li>
+                                <li><a class="dropdown-item" href="{{url('los-angeles-electricians')}}">los angeles</a></li>
+                                <li><a class="dropdown-item" href="{{url('sherman-oaks-electricians')}}">sherman oaks</a></li>
+                                <li><a class="dropdown-item" href="{{url('studio-city')}}">studio city</a></li>
+                                <li><a class="dropdown-item" href="{{url('universal-city')}}">universal-city</a></li>
+                                <li><a class="dropdown-item" href="{{url('west-hills-electricians')}}">west hills</a></li>
+                                <li><a class="dropdown-item" href="{{url('west-hollywood-electricians')}}">west hollywood</a>
+                                <li><a class="dropdown-item" href="{{url('woodland-hills')}}">woodland hills</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{url('contact-us')}}">contact us </a>

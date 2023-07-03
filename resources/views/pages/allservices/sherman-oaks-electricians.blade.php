@@ -1,6 +1,10 @@
-
 @extends('layouts.homepage')
 @section('content')
+
+
+<title>Sherman Oaks electricians</title>
+<meta name="description" content="We are a California Licensed electrical contractors. Hire us for residential and commercial electrical repair services. Call a Sherman Oaks electrician here.">
+<meta name="keywords" content="Sherman Oaks electricians, electrical contractors Sherman Oaks">
     
 <section id="Agoura">
         <div class="container">

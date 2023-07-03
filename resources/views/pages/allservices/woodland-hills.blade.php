@@ -1,7 +1,9 @@
- 
 @extends('layouts.homepage')
 @section('content')
-<!-- ========== End header ========== -->
+
+   <title>Woodland Hills electricians</title>
+   <meta name="description" content="Get indoor and outdoor lighting, security cameras and electrical circuit repair. Hire Woodland Hills electricians for residential or commercial electrical work.">
+   <meta name="keywords" content="Woodland Hills electricians, electrical contractors Woodland Hills">  
 
     <!-- ========== Start section-1 ========== -->
     <section id="Agoura">

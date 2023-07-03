@@ -1,6 +1,9 @@
-
 @extends('layouts.homepage')
 @section('content')
+
+<title>Calabasas electricians</title>
+<meta name="description" content="Licensed electricians serving Calabasas. Hire us for residential and commercial electrical repair services. Call 24 hours for emergency electrical repairs.">
+<meta name="keywords" content="Calabasas electricians, electrical contractors Calabasas">
     
 <!-- ========== Start section-1 ========== -->
 <section id="Agoura">

@@ -1,7 +1,9 @@
 
 @extends('layouts.homepage')
 @section('content')
-    
+   <title>Barin Electrical</title>
+   <meta name="description" content="Barin Electrical, Get indoor and outdoor lighting, security cameras and electrical circuit repair. Hire Woodland Hills electricians for residential or commercial electrical work.">
+   <meta name="keywords" content="Barin Electrical, electrical contractors Woodland Hills"> 
    <!-- ========== Start banner-section ========== -->
    <section id="b-section-1">
         <div class="container">

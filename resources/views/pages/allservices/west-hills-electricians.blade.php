@@ -1,6 +1,10 @@
- 
 @extends('layouts.homepage')
 @section('content')
+ 
+ <title>West Hills electricians</title>
+ <meta name="description" content="Licensed electricians for emergency electrical repairs. Get a quote on residential or commercial electrical repair services. Call your West Hills electricians.">
+ <meta name="keywords" content="West Hills electricians, electrical contractors West Hills">
+
  <!-- ========== Start section-1 ========== -->
  <section id="Agoura">
         <div class="container">

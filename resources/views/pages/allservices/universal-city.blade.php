@@ -1,6 +1,10 @@
- 
 @extends('layouts.homepage')
 @section('content')
+  
+ <title>Universal City electricians</title>
+ <meta name="description" content="Electricians for indoor and outdoor electrical system upgrades. Hire a residential and commercial electrical code compliance contractor serving Universal City.">
+ <meta name="keywords" content="Universal City electricians, electrical contractors Universal City">
+
  <!-- ========== Start section-1 ========== -->
  <section id="Agoura">
         <div class="container">

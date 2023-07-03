@@ -1,6 +1,5 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{env('APP_NAME')}}</title>
 <!-- stylesheet  -->
 <link rel="stylesheet" href="{{url('/asset/frontend/css/bootstrap.min.css')}}">
 <link rel="stylesheet" href="{{url('/asset/frontend/css/stylesheet.css')}}">
@@ -18,5 +17,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="icon" type="image/x-icon" href="{{url('/asset/frontend/images/logo.jpg')}}">
+<link rel="icon" type="image/x-icon" href="{{url('/asset/frontend/images/barin-mobile-logo-1.png')}}">
 

@@ -1,7 +1,9 @@
-
 @extends('layouts.homepage')
 @section('content')
-    
+
+<title>Studio City electricians</title>
+<meta name="description" content="Ready 24 hours a day for emergency electrical repairs. Get a quote on residential and commercial electrical services here. Hire licensed Studio City electricians.">
+<meta name="keywords" content="Studio City electricians, electrical contractors Studio City">
 
 <!-- ========== Start section-1 ========== -->
 <section id="Agoura">

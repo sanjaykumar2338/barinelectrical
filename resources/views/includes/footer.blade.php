@@ -26,8 +26,8 @@
                             </div>
                             <div class="text">
                                 <span> mail us</span>
-                                <a href="mailto:giratan966@akoption.com" style="color: #fff;">
-                                    <p class="box-one">giratan966@akoption.com</p>
+                                <a href="support@barinelectrical.com" style="color: #fff;">
+                                    <p class="box-one">support@barinelectrical.com</p>
                                 </a>
                             </div>
 

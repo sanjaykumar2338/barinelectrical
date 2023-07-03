@@ -1,8 +1,13 @@
  
 @extends('layouts.homepage')
 @section('content')
- <!-- ========== Start section-1 ========== -->
- <section id="Agoura">
+
+<title>Agoura Hills electricians</title>
+<meta name="description" content="Master electricians for smart electrical wiring. Hire local electrical contractors for residential and commercial electrical repair services in Agoura Hills. ">
+<meta name="keywords" content="Agoura Hills electricians, electrical contractors Agoura Hills">
+
+<!-- ========== Start section-1 ========== -->
+<section id="Agoura">
         <div class="container">
             <h3>Agoura Hills Electricians</h3>
             <p>If you need electrical repairs, wiring, power system installations or upgrades, and need an expert Agoura

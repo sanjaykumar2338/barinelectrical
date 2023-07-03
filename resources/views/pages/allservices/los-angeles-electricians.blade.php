@@ -2,6 +2,11 @@
 @extends('layouts.homepage')
 @section('content')
  <!-- ========== Start section-1 ========== -->
+
+ <title>Los Angeles electricians</title>
+ <meta name="description" content="Book the best electricians in Los Angeles. Get residential and commercial electrical code compliance services. Get a quote on electrical system upgrades.">
+ <meta name="keywords" content="Los Angeles electricians, electrical contractors Los Angeles">
+
  <section id="Agoura">
         <div class="container">
             <h3>Los Angeles Electricians
