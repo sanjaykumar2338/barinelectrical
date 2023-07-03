@@ -1,7 +1,7 @@
 <header>
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container">
-                <a class="navbar-brand" href="{{url('/')}}"><img width="325" height="68" src="{{url('/asset/frontend/images/barin-mobile-logo-1.png')}}" alt=""></a>
+                <a class="navbar-brand" href="{{url('/')}}"><img width="300" height="50" src="{{url('/asset/frontend/images/barin-mobile-logo-1.png')}}" alt=""></a>
                 <!-- <a class="navbar-brand" href="#">Barin  <span class="Electrical">Electrical</span></a> -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
