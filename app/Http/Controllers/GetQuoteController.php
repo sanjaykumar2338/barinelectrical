@@ -15,6 +15,7 @@ use App\Mail\QuoteReply;
 use App\Mail\Thankyou;
 use App\Mail\AdminMessage;
 use App\Mail\Contactus as ContactsMail;
+use ReCaptcha\ReCaptcha;
 
 class GetQuoteController extends Controller
 {
@@ -299,6 +300,17 @@ class GetQuoteController extends Controller
 
     public function contact_us_save(Request $request)
     {   
+
+        //print_r($request->all()); die;
+        // Verify reCAPTCHA response
+        $recaptcha = new ReCaptcha(env('RECAPTCHA_SECRET_KEY'));
+        $response = $recaptcha->verify($request->input('g-recaptcha-response'), $request->ip());
+
+        if (!$response->isSuccess()) {
+            // reCAPTCHA validation failed, handle the error
+            return redirect()->back()->with('message', 'reCAPTCHA validation failed.');
+        }
+
         //print_r($request->all()); die;
         try{
             $validated = $request->validate([
@@ -312,8 +324,7 @@ class GetQuoteController extends Controller
             $objt->name = $request->name;
             $objt->email = $request->email;
             $objt->phone_number = $request->contact_number;
-            $objt->website_url = $request->website_url;
-            $objt->user_id = Auth::id();
+            $objt->message = $request->message;
 
             if($objt->save()){
                 $user = User::where('role','admin')->first();

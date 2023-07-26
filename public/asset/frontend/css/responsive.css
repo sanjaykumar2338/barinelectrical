@@ -1,1408 +1,465 @@
-@media (max-width: 1399.98px) {
-
-    /***** home-page responsive css *****/
-    #banner-section {
-        padding: 50px 0px 50px 0px;
-    }
-
-    #banner-section .right-text li {
-        padding: 4px;
-        font-size: 15px;
-    }
-
-    #banner-section .call-text h3 {
-
-        font-size: 26px;
-    }
-
-    #banner-section .input-text {
-        padding: 15px;
-    }
-
-    #about-us .We-do {
-        padding-top: 1px;
-        font-size: 15px;
-        line-height: 24px;
-    }
-
-    #emergency button {
-        font-size: 15px;
-    }
-
-    .reputation-matters .owl-carousel .owl-item img {
-        max-width: 178px !important;
-        height: 218px;
-        width: 100%;
-    }
-
-    .reputation-matters .box-edit p {
-        font-size: 15px;
-        padding-top: 5px;
-
-    }
-
-    iframe {
-        width: 100%;
-    }
-
-    .map-section .text h3 {
-        font-size: 25px;
-    }
-
-    .map-section .text .Hire {
-        padding-top: 8px;
-        font-size: 14px;
-
-    }
-
-    .map-section .li-set {
-        padding-left: 70px;
-        margin-top: 0px;
-    }
-
-    footer .I-agree {
-        font-size: 13px;
-    }
-
-    .work-cards .We-take {
-        padding-bottom: 22px;
-    }
-
-    #banner-section .input-text p {
-        font-size: 15px;
-    }
-
-    .commercial-cards .cards-style {
-        padding: 15px
-    }
-
-    /***** End home-page responsive css *****/
-
-
-
-    /***** about page responsive css *****/
-    #a-cards .style-box {
-        padding: 20px;
-    }
-
-    /***** End about page responsive css *****/
-
-
-
-}
+@media (max-width: 1399.98px) {}
 
 
 @media (max-width: 1199.98px) {
-    /***** home-page responsive css *****/
+    .slider .carousel-caption h5 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .slider .carousel-caption p {
+        font-size: 14px;
+        padding-bottom: 0px;
+    }
 
     .nav-link {
-        margin: 0px 3px;
-        font-size: 14px;
-    }
-
-    #banner-section .left-side-style h2 {
-        font-size: 40px;
-    }
-
-    #banner-section .left-side-style .We {
-        font-size: 17px;
-        padding-top: 5px;
-        line-height: 28px;
-    }
-
-    #banner-section .left-side-style h3 {
-        padding-top: 10px;
-        font-size: 26px;
-        padding-bottom: 20px;
-    }
-
-    #banner-section .right-text li {
-        padding: 3px;
-        font-size: 12px;
-    }
-
-    #banner-section .left-side-style .GET {
-        font-size: 13px;
-        padding-top: 21PX;
-        LINE-HEIGHT: 27PX;
-    }
-
-    #banner-section .input-text p {
-        font-size: 13px;
-    }
-
-    #banner-section .call-text h3 {
-        font-size: 20px;
-    }
-
-    #about-us .text h4 {
-        font-size: 25px;
-        padding-bottom: 9px;
-    }
-
-    #about-us .text li {
-        padding: 5px;
         font-size: 16px;
+        margin: 0px 5px;
     }
 
-    .s-cards .text {
-        padding: 10px 0px 0px 10px;
+    .cards .style-box {
+        margin-top: 20px;
     }
 
-    .s-cards .text h4 {
-        font-size: 18px;
-    }
-
-    .s-cards .text p {
+    .cards .style-box .text p {
         font-size: 14px;
-        line-height: 24px;
-        padding-top: 1px;
-    }
-
-    .s-cards .text button {
-        margin-top: 2px;
-
-    }
-
-    #emergency button {
-        padding: 12px 40px;
-    }
-
-    .map-section .text h3 {
-        font-size: 20px;
-    }
-
-    .map-section .li-set {
-        padding-left: 26px;
-        margin-top: 0px;
-    }
-
-    .work-cards .We-take {
-        padding-bottom: 16px;
-        FONT-SIZE: 14PX;
-        LINE-HEIGHT: 23PX;
-    }
-
-    footer .set-border::before {
-        display: none;
-    }
-
-    footer .style {
-        gap: 19px;
-        padding: 19px 16px 3px 25px;
-    }
-
-    footer .style .box-one {
-        font-size: 14px;
-        padding-top: 2px;
-    }
-
-    footer .form-style {
-        padding: 5px;
-    }
-
-    footer .I-agree {
-        font-size: 11px;
-    }
-
-    .learn-about .We-install {
-        padding-top: 0px;
-        font-size: 16px;
-    }
-
-    .learn-about .Hire {
-        font-size: 24px;
-        padding-bottom: 4px;
-        /* text-align: center; */
-    }
-
-    .commercial-cards .cards-style {
-        padding: 12px;
-    }
-
-    /***** End home-page responsive css *****/
-
-
-    /***** about page responsive css *****/
-    #a-cards .style-box .text h4 {
-        font-size: 19px;
-    }
-
-    /***** End about page responsive css *****/
-
-
-
-
-}
-
-@media (max-width: 991.98px) {
-    .section-3 .text h3 {
-        padding-top: 20px;
-    }
-
-    .section-4 .text h3 {
-        padding-top: 20px;
-    }
-
-    .section-5 .text h3 {
-        padding-top: 20px;
-    }
-
-    .section-6 .text h3 {
-        padding-top: 20px;
-    }
-
-    .section-7 .text h3 {
-        padding-top: 20px;
-    }
-
-    .section-8 .text h3 {
-        padding-top: 20px;
-    }
-
-    .section-8 .text h3 {
-        padding-top: 20px;
-    }
-
-
-    #c-banner-section1 .img-box img {
-
-        padding-bottom: 10px;
-    }
-
-    #b-section-1 .text h3 {
-        padding-top: 12px;
-    }
-
-    #review .text-right .Recommended {
-        font-size: 19px;
-    }
-
-    #banner-section .right-text li {
-        font-size: 16px;
-    }
-
-    .right-form {
-        margin-top: 16px;
-    }
-
-    #banner-section .input-text p {
-        font-size: 17px;
-    }
-
-    #about-us .We-do {
-        font-size: 14px;
-        line-height: 24px;
-    }
-
-    #about-us .text h4 {
-        font-size: 20px;
-    }
-
-    #about-us .text li {
-        padding: 4px;
-        font-size: 13px;
-    }
-
-    #about-us .text {
-        margin-top: 25px;
-    }
-
-    #about-us .img {
-        margin-top: 29px;
-    }
-
-    .s-cards .card-syle {
-        padding: 7px;
-        box-shadow: 0px 13px 72px 15px rgba(196, 197, 198, 0.12);
-    }
-
-    .set-padding-sm {
-        padding: 7px;
-    }
-
-    .s-cards .text h4 {
-        font-size: 14px;
-    }
-
-    .s-cards .text p {
-        font-size: 12px;
         line-height: 22px;
     }
 
-    #emergency h4 {
-        font-size: 19px;
-    }
-
-    #emergency h3 {
-        font-size: 31px;
-    }
-
-    #emergency {
-        padding: 17px 0px 17px 0px;
-    }
-
-    #emergency button {
-        padding: 12px 24px;
-    }
-
-    .carousel-caption {
-        padding-bottom: 55px;
-    }
-
-    .carousel-caption h5 {
-        font-size: 30px;
-        line-height: 39px;
-    }
-
-    #about-us .text li {
-        padding: 4px;
-        font-size: 12px;
-    }
-
-    .carousel-caption button {
-        margin-top: 1px;
-    }
-
-    .reputation-matters .We-are {
-
-        font-size: 13px;
-        line-height: 21px;
-    }
-
-    .reputation-matters .box-edit {
-        display: block;
-    }
-
-    .reputation-matters .owl-carousel .owl-item img {
-        width: 100%;
-    }
-
-    .reputation-matters .box-edit img {
-        border-radius: 10px;
-        width: 100% !important;
-    }
-
-    .reputation-matters .box-edit .text {
-        padding-top: 30px;
-        padding-left: 20px;
-    }
-
-    .reputation-matters .owl-carousel .owl-item img {
-        width: 100%;
-        margin: auto;
-        margin-top: 21px;
-    }
-
-    .map-section .text h3 {
-        font-size: 16px;
-    }
-
-    .map-section .text {
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-top: 30px;
-    }
-
-    .map-section .text h3 {
+    footer .edit h2 {
         font-size: 20px;
     }
 
-    .map-section .text .Hire {
-        padding-top: 3px;
+    footer .style-box .text .number {
+        color: var(--white-color);
+        font-weight: 600;
         font-size: 15px;
     }
 
-    .map-section .li-set {
-        padding-left: 1px;
-        margin-top: 0px;
+    footer .style-box {
+        gap: 19px;
+        padding: 10px;
     }
 
-    .work-cards .We-take {
-        padding-bottom: 16px;
-        FONT-SIZE: 13PX;
-        LINE-HEIGHT: 23PX;
+    footer .s-icon i {
+        padding: 6px;
+        margin: 0px 0px 0px 3px;
     }
 
-    footer .style {
-        gap: 15px;
-        padding: 19px 16px 3px 25px;
+    .form-section .s-padding {
+        padding-left: 20px;
     }
 
-    footer .style {
-        gap: 10px;
-        padding: 11px;
+    .form-section form {
+        padding: 15px;
+        border: 1px solid #64453857;
     }
 
-    footer .style .box-one {
-        font-size: 12px;
+    .contact-d li span {
+        font-size: 15px;
+        padding-left: 14px;
+    }
+}
+
+
+
+@media (max-width: 991.98px) {
+    .btn-style .one {
+        margin-bottom: 30px;
     }
 
-    footer .style i {
-        font-size: 28px;
+    .slider .carousel-caption {
+        top: 45%;
     }
 
-    footer .style span {
-        font-size: 19px;
-        font-weight: 400;
-        line-height: 0px;
+    .slider .carousel-caption h5 {
+        font-size: 24px;
+        line-height: 33px;
     }
 
-    footer .set-the-padding {
+    .slider .carousel-caption p {
+        font-size: 11px;
+    }
+
+    .about-us .style {
+        padding-bottom: 30px;
+    }
+
+    .about-us .right-text {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+
+    .about-us .right-text {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+
+    footer .style-box {
+        display: block;
+        padding: 6px;
+    }
+
+    footer .padding-set {
+        padding-left: 40px;
+    }
+
+    .gallery-pic .img-box {
+        margin: 11px 0px;
+    }
+
+    .gallery-pic p {
+        padding-bottom: 5px;
+    }
+
+    .contact-d h3 {
+        padding-bottom: 0px;
+        font-size: 35px;
+    }
+
+    .contact-d {
+        margin-top: 26px;
+    }
+
+    .form-section .s-padding {
         padding-left: 15px;
+        margin-top: 45px;
     }
 
-    .navbar-light .navbar-toggler {
-        background-color: #F6821E;
+    .form-section form {
+        padding: 35px;
+        border: 1px solid #64453857;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .carousel-indicators [data-bs-target] {
+        height: 15px;
+        width: 15px;
+        margin: 0px 5px;
     }
 
-    .input-style {
-        display: flex;
-        justify-content: space-between;
+    .cards .style-box .text {
+        margin-top: 5px;
+        padding: 10px 9px 20px;
     }
 
-    .learn-about .learn-more {
-        font-size: 25px;
-        padding-bottom: 3px;
+    .cards .style-box .text h4 {
+        font-size: 20px;
     }
 
-    .learn-about .text {
-        margin-top: 25px;
+
+    footer .border-left {
+        border-right: 0px solid rgba(255, 255, 255, 0.20);
+        border-left: 0px solid rgba(255, 255, 255, 0.20);
+    }
+
+    footer .border-set {
+        border-bottom: 0px solid rgba(255, 255, 255, 0.20);
+    }
+
+    footer .edit {
+        margin-top: 34px;
+    }
+
+    footer .padding-set {
+        padding-left: 0px;
+    }
+
+    footer .edit h2 {
+        font-size: 27px;
+        padding-bottom: 4px;
+    }
+
+    footer {
+        padding: 30px 0px 50px 0px;
+    }
+
+    .text-all .text-style h4 {
+        font-size: 15px;
+    }
+
+    .text-all .text-style p {
+        font-size: 13px;
+    }
+}
+
+
+
+@media (max-width: 575.98px) {
+    footer .img-set img {
+        margin: 3px 0px;
+    }
+
+    .nav-link {
+        text-align: center;
         padding-left: 0px;
         padding-right: 0px;
     }
 
-    .commercial-cards .cards-style {
-        padding: 22px;
-        margin-top: 22px;
+    .btn {
+        margin-left: auto !important;
+        display: flex;
+        justify-content: center;
+        margin: auto;
     }
 
-    .s-cards .provide {
-        font-size: 21px;
-        padding-bottom: 10px;
+    .carousel-indicators {
+        bottom: -10px;
     }
 
-    .s-cards .text button {
-        padding: 7px 18px;
-        font-size: 14px;
-    }
-
-    /***** about page responsive css *****/
-    #a-cards .style-box .text h4 {
-        font-size: 21px;
-    }
-
-    #b-2 .text-box h3 {
-        font-size: 30px;
-    }
-
-    #b-2 .text-box p {
-        font-size: 16px;
-    }
-
-    /***** End about page responsive css *****/
-
-
-
-
-
-}
-
-@media (max-width: 767.98px) {
-    #emergency h3 {
-        font-size: 15px;
-    }
-
-    #code h3 {
-        font-size: 23px;
-    }
-
-    #code p {
-        font-size: 16px;
-    }
-
-    #s-1 .text h3 {
-        font-size: 25px;
-    }
-
-    #s-3 .text h3 {
-        font-size: 25px;
-        padding-top: 8px;
-    }
-
-    #cards-section .style-box .text p {
-        font-size: 15px;
-    }
-
-    #cards-section .style-box .text h4 {
-        font-size: 19px;
-    }
-
-    #cards-section .style-box {
-        padding: 17px;
-
-    }
-
-    #cards-section .We-offer {
-        font-size: 14px;
-
-    }
-
-    #cards-section {
-        padding: 30px 0px 30px 0px;
-    }
-
-
-    #banner-section .left-side-style .img-box img {
-        width: 100%;
-    }
-
-    .right-text {
-        margin-top: 26px;
-    }
-
-    #banner-section .right-text li {
-        font-size: 17px;
-    }
-
-    #banner-section .left-side-style .GET {
-        font-size: 14px;
-        padding-top: 21PX;
-        LINE-HEIGHT: 26PX;
-    }
-
-    #about-us .We-do {
-        font-size: 13px;
-        line-height: 22px;
-    }
-
-    #about-us {
-        padding: 30px 0px 30px 0px;
-    }
-
-    #about-us .text {
-        margin-top: 6px;
-    }
-
-    #about-us .text h4 {
-        font-size: 24px;
-    }
-
-    #about-us .text li {
-        padding: 4px;
-        font-size: 18px;
-    }
-
-    .s-cards .card-syle {
-        padding: 12px 14px;
-    }
-
-    .s-cards .text h4 {
-        font-size: 15px;
-    }
-
-    .s-cards .text p {
-        font-size: 13px;
-        line-height: 21px;
-    }
-
-    #emergency h4 {
-        font-size: 15px;
-    }
-
-    #emergency button {
-        padding: 12px 51px;
-        margin-top: 9px;
-    }
-
-    .banner-slider img {
-        min-height: 317px;
-    }
-
-    .carousel-caption h5 {
-        font-size: 22px;
-        line-height: 30px;
-    }
-
-    .carousel-caption p {
-        font-size: 19px;
-        line-height: 17px;
-    }
-
-    .reputation-matters .We-are {
-        font-size: 16px;
-        line-height: 21px;
-    }
-
-    .reputation-matters .box-edit {
-        margin-top: 12px;
-        border-radius: 10px;
-    }
-
-    .reputation-matters .box-edit .text {
-        padding-top: 20px;
-        padding-left: 20px;
-    }
-
-    .reputation-matters .box-edit .text {
-        padding-top: 20px;
-        padding-left: 12px;
-
-    }
-
-    .reputation-matters .box-edit p {
-        font-size: 14px;
-    }
-
-    .work-cards .We-take {
-        display: none;
-    }
-
-    .work-cards {
-        padding: 30px 0px 20px 0px;
+    .cards {
+        padding: 20px 0px 20px 0px;
     }
 
     .heading-style {
-        padding-bottom: 1px;
-        font-size: 33px;
-
-    }
-
-    footer .bg-color {
-        display: none;
-    }
-
-    footer .menu {
-        margin-top: 29px;
-    }
-
-    .nav-link {
-        margin: 0px;
-        font-size: 16px;
-        padding: 7px;
-    }
-
-    .learn-about .learn-more {
-        font-size: 18px;
-        padding-bottom: 0px;
-        line-height: 22px;
-    }
-
-    .learn-about .Get-a {
-        font-size: 20px;
-        line-height: 26px;
-    }
-
-    .learn-about .HOUR {
-        line-height: 6px;
-        font-size: 15px;
-    }
-
-    .learn-about .img {
-        margin-top: 20px;
-    }
-
-    .commercial-cards .cards-style {
-        padding: 10px;
-        margin-top: 18px;
-    }
-
-    /***** contact page css *****/
-    #contact-section {
-        padding: 30px 0px 30px 0px;
-    }
-
-    #contact-section .style-box {
-        margin-top: 20px;
-    }
-
-    .map-location {
-        padding: 30px 0px 30px 0px;
-    }
-
-    .map-location iframe {
-        min-height: auto;
-    }
-
-    /***** End contact page css *****/
-
-
-
-}
-
-
-@media (max-width: 575.98px) {
-    .heading-style {
-        padding-bottom: 0px;
-    }
-
-    #banner-section .left-side-style h2 {
-        font-size: 25px;
-    }
-
-    #banner-section .left-side-style .We {
-        font-size: 15px;
-        padding-top: 4px;
-        line-height: 27px;
-
-    }
-
-    #banner-section .left-side-style h3 {
-        padding-top: 0px;
-        font-size: 17px;
-        padding-bottom: 12px;
-    }
-
-    #banner-section .right-text li {
-        font-size: 14px;
-    }
-
-    #banner-section .left-side-style .GET {
-        font-size: 9px;
-        padding-top: 12PX;
-        LINE-HEIGHT: 20PX;
-        FONT-WEIGHT: 400;
-    }
-
-    #banner-section .call-text {
-        background-color: var(--section--bg-2);
-        padding: 15px;
-        text-align: center;
-    }
-
-    #banner-section .call-text h3 {
-
-        padding-bottom: 5px;
-    }
-
-    #banner-section .input-text {
-        padding: 10px;
-    }
-
-    #banner-section .input-text p {
-        font-size: 13px;
-    }
-
-    .heading-style {
-        font-size: 24px;
-
-    }
-
-    #about-us .We-do {
-        display: none;
-    }
-
-    #about-us .text h4 {
-        font-size: 25px;
-        padding-bottom: 1px;
-    }
-
-    #about-us .text li {
-        padding: 3px;
-        font-size: 15px;
-    }
-
-    #about-us .text h4 {
-        font-size: 17px;
-        padding-bottom: 1px;
-    }
-
-    #about-us .img {
-        margin-top: 15px;
-    }
-
-    .s-cards {
-        padding: 20px 0px 25px 0px;
-    }
-
-    .heading-style {
-        font-size: 22px;
-        padding-bottom: 5px;
-    }
-
-    .s-cards .text h4 {
-        font-size: 18px;
-        padding-top: 3px;
-    }
-
-    .s-cards .text p {
-        font-size: 14px;
-        line-height: 21px;
-    }
-
-    .set-padding-sm {
-        padding: 10px 0px 15px;
-    }
-
-    .s-cards .card-syle {
-        padding: 19px 14px;
-        border-radius: 18px;
-    }
-
-    .carousel-caption {
-        padding-bottom: 55px;
-        display: none;
-    }
-
-    .banner-slider img {
-        min-height: 154px;
-    }
-
-    .reputation-matters {
-        padding: 30px 0px 30px 0px;
-    }
-
-    .reputation-matters .We-are {
-        font-size: 16px;
-        line-height: 21px;
-        display: none;
-    }
-
-    .map-section {
-        padding: 30px 0px 30px 0px;
-        background-color: #F8F8F8;
-    }
-
-    .map-section .text h3 {
-        font-size: 18px;
-    }
-
-    .map-section .text .Hire {
-        padding-top: 3px;
-        font-size: 18px;
-        display: none;
-    }
-
-    .heading-style {
-        font-size: 22px;
-        padding-bottom: 12px;
-    }
-
-    footer .I-agree {
-        font-size: 13px !important;
-    }
-
-    footer .menu a {
-        font-size: 15px;
-    }
-
-    footer {
-        padding-bottom: 20px;
-    }
-
-    footer .menu h2 {
-        font-size: 28px;
-        padding-bottom: 0px;
-    }
-
-
-
-    footer .menu {
-        margin-top: 19px;
-    }
-
-    footer .menu li {
-        margin: 14px 0px;
-    }
-
-    iframe {
-        height: 250px;
-    }
-
-    .map-section .map-style {
-        padding: 12px;
-    }
-
-    .learn-about {
-        padding: 22px 0px 22px 0px;
-    }
-
-    .learn-about .learn-more {
-        font-size: 16px;
-    }
-
-    .learn-about .Get-a {
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    .learn-about .HOUR {
-        line-height: 15px;
-        font-size: 11px;
-    }
-
-    .learn-about .HOUR {
-        line-height: 15px;
-        font-size: 11px;
-        margin: 0px;
-    }
-
-    .learn-about .Hire {
-        font-size: 17px;
-        padding-bottom: 0px;
-        line-height: 25px;
-    }
-
-    .learn-about .We-install {
-        padding-top: 0px;
-        font-size: 14px;
-        line-height: 23px;
-    }
-
-    .commercial-cards {
-        padding: 17px 0px 40px 0px;
-        background-color: #F8F8F8;
-    }
-
-    .s-cards .provide {
-        padding-bottom: 0px;
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    /***** about page responsive css *****/
-    #about-us-section h3 {
         font-size: 26px;
     }
 
-    #a-cards {
-        padding: 18px 0px 35px 0px;
-        background-color: #F8F8F8;
+    .cards .style-box {
+        margin-top: 18px;
     }
 
-    .heading-style {
+    .cards .style-box .text h4 {
+        font-size: 22px;
+    }
+
+    .about-us {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .about-us .style {
+        padding-bottom: 24px;
+        font-size: 14px;
+    }
+
+    .about-us .right-text h3 {
+        font-size: 21px;
+        line-height: 29px;
         padding-bottom: 1px;
     }
 
-    #a-cards p {
-        font-size: 14px;
+    .about-us .right-text li {
+        font-size: 15px;
+        list-style-type: none;
+        margin: 11px 0px;
     }
 
-    #a-cards .style-box {
+    .certificates {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .certificates .owl-carousel .owl-nav button.owl-prev {
+        margin-top: 0px;
+    }
+
+    .banner {
+        min-height: 160px;
+    }
+
+    .about-us .right-text h3 {
+        font-size: 19px;
+
+    }
+
+    .updates-banner {
+        min-height: 150px;
+    }
+
+    .text-all {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .text-all .text-style {
         padding: 15px;
     }
 
-    #a-cards .style-box .text h4 {
-        font-size: 19px;
+    .text-all .text-style li {
+        list-style: none;
     }
 
-    #a-cards .style-box .text p {
-        font-size: 15px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+    .text-all .text-style h4 {
+        font-size: 17px;
+        line-height: 26px;
     }
 
-    #a-cards .style-box .text a {
-        font-size: 16px;
-    }
-
-    #b-2 .text-box h3 {
-        font-size: 23px;
-    }
-
-    #b-2 .text-box p {
-        font-size: 16px;
+    .text-all .text-style p {
+        font-size: 13px;
         text-align: justify;
+        padding-top: 2px;
     }
 
-    #about-us-section {
-        min-height: 200px;
+    .testimonial .Lorem {
+        padding-bottom: 0px;
     }
 
-    /***** End about page responsive css *****/
-
-    /* content: page css  */
-    .heading-style {
-        font-size: 27px;
-        padding-bottom: 2px;
-    }
-
-    #contact-section .style-box p {
-        font-size: 15px;
-        word-break: break-all;
-    }
-
-    #contact-section .style-box {
-        padding: 24px;
-    }
-
-    #contact-section .style-box .call-box {
-        padding-bottom: 22px;
-    }
-
-    #contact-section .form-style {
-        padding: 24px;
-    }
-
-    #contact-section .form-style .Have {
-        text-align: center;
-        padding-top: 15px;
-    }
-
-    #contact-section .form-style h4 {
-        text-align: center;
-    }
-
-    #contact-section .form-style form {
-        margin-top: 14px;
-    }
-
-    .map-location {
-        padding: 22px 0px 22px 0px;
-    }
-
-    #c-section {
-        min-height: 200px;
-        background-position: center;
-    }
-
-    #c-section .text h3 {
-        font-size: 23px;
-        padding-top: 47px;
-    }
-
-    .map-location iframe {
-        min-height: auto;
-        padding: 10px;
-    }
-
-    /* content: page css close */
-
-    #b-section-1 .top {
-
-        font-size: 23px;
-    }
-
-    #b-section-1 .Call {
-
-        font-size: 14px;
-
-    }
-
-    #b-section-1 .video {
-        margin-top: 20px;
-    }
-
-    #review .text-right .Recommended {
-        font-size: 17px;
-        padding-top: 9px;
-    }
-
-    #Construction-section {
-        padding: 30px 0px 30px 0px;
-    }
-
-    #Construction-section .left-text h3 {
-        font-size: 17px;
-    }
-
-    #Construction-section .left-text p {
-        font-size: 14px;
-    }
-
-    #Construction-section .left-text li {
-        font-size: 16px;
-    }
-
-    #reachan-section {
-        padding: 30px 0px 30px 0px;
-        background-color: #F8F8F8;
-    }
-
-    #reachan-section p {
-        font-size: 14px;
-    }
-
-    #reachan-section .text {
-        margin-top: 23px;
-        padding-left: 10px;
-    }
-
-    #reachan-section h3 {
-        font-size: 19px;
-        font-weight: 600;
-        line-height: 27px;
-    }
-
-    #reachan-section li {
-        padding: 5px;
-        font-size: 15px;
-    }
-
-    .get-an {
+    .testimonial {
         padding: 20px 0px 20px 0px;
     }
 
-    .get-an .Get {
-
-        padding-bottom: 19px;
-        font-size: 16px;
+    .t-banner {
+        min-height: 150px;
     }
 
-    .get-an h2 {
-        font-size: 24px;
-    }
-
-    .get-an li {
-        font-size: 15px;
-    }
-
-    .get-an p {
-        font-size: 14px;
-        color: var(--p-color);
-        line-height: 27px;
-    }
-
-    .b-section-two h3 {
+    .t-banner h2 {
         font-size: 20px;
     }
 
-    .b-section-two p {
-        font-size: 16px;
-        text-align: justify;
+    .testimonial .Lorem {
+        font-size: 14px;
+        padding-bottom: 0px;
     }
 
-    .b-section-two {
-        padding: 20px 0px 20px 0px;
+    .testimonial .style-box {
+        padding: 15px;
+        margin-top: 15px;
     }
 
-    #banner-services {
-        min-height: 200px;
+    .testimonial .style-box p {
+        font-size: 13px;
+        padding-top: 16px;
+        line-height: 25px;
     }
 
-    #banner-services .text h3 {
-        font-size: 25px;
+    .testimonial .style-box h4 {
+        font-size: 21px;
+        padding-top: 4px;
     }
 
-    #cards-section {
+    .testimonial .style-box {
+        min-height: 0px;
+    }
+
+    .gallery-banner {
+        min-height: 150px;
+    }
+
+    .gallery-banner h2 {
+        font-size: 20px;
+    }
+
+    .gallery-pic {
         padding: 20px 0px 20px 0px;
     }
 
     .heading-style {
-        font-size: 20px;
+        font-size: 21px;
     }
 
-    #cards-section .We-offer {
-        font-size: 15px;
-        text-align: justify;
-    }
-
-    #cards-section .style-box {
-
-        margin-top: 20px;
-
-    }
-
-    #section-2 {
-        padding: 20PX 0PX 20PX 0PX;
-    }
-
-    #section-2 .text h3 {
-        font-size: 25px;
-    }
-
-    #section-2 .text p {
-        font-size: 15px;
-        padding-top: 5px;
-        text-align: justify;
-    }
-
-    .section-3 {
-        padding: 20PX 0PX 20PX 0PX;
-    }
-
-    .section-4 {
-        padding: 20PX 0PX 20PX 0PX;
-    }
-
-    .section-5 {
-        padding: 20PX 0PX 20PX 0PX;
-    }
-
-    .section-6 {
-        padding: 20PX 0PX 20PX 0PX;
-    }
-
-    .section-7 {
-        padding: 20PX 0PX 20PX 0PX;
-    }
-
-    .section-8 {
-        padding: 20PX 0PX 20PX 0PX;
-    }
-
-    .section-9 {
-        padding: 20PX 0PX 20PX 0PX;
-    }
-
-    .section-3 .text h3 {
-        padding-top: 20px;
-        font-size: 18px;
-    }
-
-    .section-3 .text p {
-        font-size: 16px;
-        text-align: justify;
-    }
-
-    .section-4 .text h3 {
-        font-size: 22px;
-    }
-
-    .section-4 .text p {
-        font-size: 16px;
-        text-align: justify;
-    }
-
-    .section-5 .img img {
-        padding-left: 0px;
-    }
-
-    .section-5 .text h3 {
-        font-size: 22px;
-    }
-
-    .section-5 .text p {
-        font-size: 16px;
-        text-align: justify;
-    }
-
-    .section-6 .text h3 {
-        font-size: 23px;
-    }
-
-    .section-6 .text p {
-        font-size: 16px;
-        text-align: justify;
-    }
-
-    .section7 {
-        padding: 20px 0px 20px 0px;
-    }
-
-    .section7 .img img {
-        padding-left: 0px;
-    }
-
-    .section7 .text h3 {
-        font-size: 19px;
-        font-weight: 600;
-        padding-top: 14px;
-    }
-
-    .section7 .text p {
-        font-size: 16px;
-    }
-
-    .section-8 .text h3 {
-        padding-top: 20px;
-        font-size: 20px;
-    }
-
-    .section-8 .text p {
-
-        text-align: justify;
-    }
-
-    .section-8 .img img {
-
-        padding-left: 0px;
-    }
-
-    .section-9 .text h3 {
-        font-size: 25px;
-        padding-top: 13px;
-    }
-
-    .section-9 .text p {
-        font-size: 17px;
-        text-align: justify;
-    }
-
-    #c-banner-section1 .text h3 {
-        font-size: 24px;
-    }
-
-    #c-banner-section1 .text p {
-        font-size: 16px;
-    }
-
-    #code h3 {
-        font-size: 16px;
-        line-height: 23px;
-
-    }
-
-    #code p {
+    .gallery-pic p {
+        padding-bottom: 0px;
         font-size: 13px;
     }
 
-    #s-1 {
+    .gallery-pic .img-box {
+        margin: 10px 0px;
+    }
+
+    .form-section {
         padding: 20px 0px 20px 0px;
     }
 
-    #s-1 .text p {
-        font-size: 15px;
-        TEXT-ALIGN: JUSTIFY;
+    .img-style {
+
+        padding: 28px;
     }
 
-    #s-3 {
-        padding: 20px 0px 20px 0px;
+    .img-style .set .icon i {
+        font-size: 67px;
     }
 
-    #s-3 .text h3 {
-        font-size: 18px;
-        padding-top: 8px;
-        LINE-HEIGHT: 24PX;
+    .img-style .set .text h4 {
+        font-size: 24px;
+        line-height: 12px;
     }
 
-    /* electrical-subcontratcots */
-    #b-1 h3 {
-        font-size: 18px;
+    .img-style .set .text p {
+        font-size: 14px;
     }
 
-    #b-1 p {
-        font-size: 16px;
-    }
-
-    #s-1 .text h3 {
-        font-size: 20px;
-    }
-
-    #s-3 .text p {
-        font-size: 16px;
-    }
-
-    #c-banner-section1 {
-
+    .img-style {
         min-height: 200px;
     }
 
-    #a-1 {
+    .contact-d {
+        margin-top: 20px;
+    }
+
+    .img-style .set {
+        display: block;
+    }
+
+    .contact-d h3 {
+        font-size: 27px;
+    }
+
+    .contact-d li span {
+        font-size: 13px;
+        padding-left: 7px;
+        text-align: center;
+    }
+
+    .contact-d li {
+        padding-top: 16px;
+    }
+
+    .form-section form {
+        padding: 14px;
+    }
+
+    .form-section form h3 {
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    .form-section form p {
+        font-size: 13px;
+        padding-top: 0px;
+        padding-bottom: 2px;
+    }
+
+    .contact-banner {
+        min-height: 150px;
+
+    }
+
+    footer .style-box {
+        padding: 3px;
+    }
+
+    footer .s-icon i {
+        padding: 10px;
+    }
+
+    footer .edit p {
+        padding-bottom: 3px;
+    }
+
+    footer .edit button {
+        margin-top: 6px;
+    }
+
+    footer {
+        padding: 30px 0px 20px 0px;
+    }
+
+    .reviews .style-box {
+        padding: 8px;
+    }
+
+    .hair-removal {
         padding: 20px 0px 20px 0px;
     }
 
-    #a-1 .text h3 {
-        font-size: 22px;
+    .hair-removal .style-1 {
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    .hair-removal .right-text h3 {
+        font-size: 19px;
+        line-height: 28px;
+       
     }
 
-    #a-1 .text p {
-        color: var(--p-color);
-        font-size: 16px;
-        text-align: justify;
-    }
-
-    #a-1 .text button {
-        border-bottom: 8px solid #fff;
-    }
-
-    #emergency h3 {
-        font-size: 17px;
-    }
-
-    #section-2 .text h3 {
-        font-size: 20px;
-    }
 }
-
-/*****  all page responsive css  *****/

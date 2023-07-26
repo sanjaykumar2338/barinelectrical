@@ -15,16 +15,16 @@ class MainController extends Controller
         return view('pages.aboutus');
     }
 
-    public function commercial_electricians_riverside(){
-        return view('pages.allservices.commercial_electricians_riverside');
+    public function gallery(){
+        return view('pages.gallery');
     }
 
-    public function electrical_services(){
-        return view('pages.allservices.electrical_services');
+    public function update(){
+        return view('pages.update');
     }    
 
-    public function commercial_electricians(){
-        return view('pages.allservices.commercial_electricians');
+    public function testimonial(){
+        return view('pages.testimonial');
     }
     
     public function electrical_code_compliance(){
